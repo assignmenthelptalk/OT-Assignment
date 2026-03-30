@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import ContactForm from '../components/ContactForm.astro';
 
 interface Crumb {
   label: string;
@@ -52,11 +53,23 @@ const schemaJson = {
   </Fragment>
 
   <main>
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8">
       <Breadcrumb crumbs={breadcrumbs} />
-      <article class="prose-article mt-4">
-        <slot />
-      </article>
+      <div class="mt-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-12">
+        <article class="prose-article min-w-0">
+          <slot />
+        </article>
+        <aside class="hidden lg:block">
+          <div class="sticky top-24">
+            <ContactForm
+              headingText="Get a Free Quote"
+              subText="OT-qualified writers. Response within 24 hours."
+              formId="sidebar-quote"
+              sidebar={true}
+            />
+          </div>
+        </aside>
+      </div>
     </div>
   </main>
 </BaseLayout>
