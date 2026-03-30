@@ -1,0 +1,103 @@
+---
+const pathname = Astro.url.pathname;
+
+const navLinks = [
+  { label: 'Home', href: '/' },
+  { label: 'Case Studies', href: '/ot-case-study-assignment-help' },
+  { label: 'Reflective Essay', href: '/ot-reflective-essay-assignment-help' },
+  { label: 'Literature Review', href: '/ot-literature-review-assignment-help' },
+  { label: 'Activity Analysis', href: '/activity-analysis-assignment-help' },
+  { label: 'MOHO', href: '/moho-assignment-help' },
+];
+
+function isActive(href: string) {
+  if (href === '/') return pathname === '/';
+  return pathname.startsWith(href);
+}
+---
+
+<header
+  data-sticky
+  class="sticky top-0 z-50 bg-primary-800 text-white transition-shadow duration-200"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+
+    <!-- Brand -->
+    <a href="/" class="font-bold text-base text-white hover:text-primary-100 shrink-0">
+      OT Assignment Help
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden lg:flex items-center gap-5 text-sm" aria-label="Main navigation">
+      {navLinks.map(link => (
+        <a
+          href={link.href}
+          class={isActive(link.href)
+            ? 'text-white font-semibold'
+            : 'text-primary-100 hover:text-white transition-colors'}
+          aria-current={isActive(link.href) ? 'page' : undefined}
+        >
+          {link.label}
+        </a>
+      ))}
+      <a
+        href="/contact"
+        class="bg-accent-500 hover:bg-accent-400 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors duration-200 ml-2"
+      >
+        Get a Quote
+      </a>
+    </nav>
+
+    <!-- Mobile hamburger -->
+    <button
+      id="nav-toggle"
+      class="lg:hidden p-2 rounded-md text-primary-100 hover:text-white hover:bg-primary-700 transition-colors"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="mobile-nav"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile nav drawer -->
+  <nav
+    id="mobile-nav"
+    class="hidden lg:hidden bg-primary-900 px-4 pb-4 pt-2 space-y-1 text-sm"
+    aria-label="Mobile navigation"
+  >
+    {navLinks.map(link => (
+      <a
+        href={link.href}
+        class={`block px-3 py-2 rounded-md ${isActive(link.href)
+          ? 'bg-primary-700 text-white font-semibold'
+          : 'text-primary-100 hover:bg-primary-800 hover:text-white'} transition-colors`}
+        aria-current={isActive(link.href) ? 'page' : undefined}
+      >
+        {link.label}
+      </a>
+    ))}
+    <a
+      href="/contact"
+      class="block mt-3 bg-accent-500 hover:bg-accent-400 text-white font-semibold px-4 py-2 rounded-lg text-center transition-colors"
+    >
+      Get a Quote
+    </a>
+  </nav>
+</header>
+
+<script is:inline>
+  const btn = document.getElementById('nav-toggle');
+  const nav = document.getElementById('mobile-nav');
+  if (btn && nav) {
+    btn.addEventListener('click', () => {
+      const isOpen = !nav.classList.contains('hidden');
+      nav.classList.toggle('hidden', isOpen);
+      btn.setAttribute('aria-expanded', String(!isOpen));
+    });
+  }
+</script>

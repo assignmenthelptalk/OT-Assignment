@@ -1,0 +1,43 @@
+---
+const navLinks = [
+  { label: 'Home', href: '/' },
+  { label: 'Case Studies', href: '/ot-case-study-assignment-help' },
+  { label: 'Reflective Essay', href: '/ot-reflective-essay-assignment-help' },
+  { label: 'Literature Review', href: '/ot-literature-review-assignment-help' },
+  { label: 'Activity Analysis', href: '/activity-analysis-assignment-help' },
+  { label: 'MOHO', href: '/moho-assignment-help' },
+  { label: 'Contact', href: '/contact' },
+];
+---
+
+<footer class="bg-primary-900 text-primary-100 mt-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+
+    <!-- Brand tagline -->
+    <div class="mb-6">
+      <p class="font-bold text-white text-base mb-1">OT Assignment Help</p>
+      <p class="text-sm text-primary-100">
+        Expert OT assignment help for BSc, MSc and OTD students.
+      </p>
+    </div>
+
+    <!-- Nav links -->
+    <nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm mb-8" aria-label="Footer navigation">
+      {navLinks.map(link => (
+        <a href={link.href} class="text-primary-200 hover:text-white transition-colors">
+          {link.label}
+        </a>
+      ))}
+    </nav>
+
+    <!-- Bottom row -->
+    <div class="border-t border-primary-700 pt-6 flex flex-col sm:flex-row justify-between gap-3 text-xs text-primary-400">
+      <p>&copy; 2025 OT Assignment Help. All work produced is for educational reference purposes only.</p>
+      <div class="flex gap-4 shrink-0">
+        <a href="/privacy" class="hover:text-white transition-colors">Privacy</a>
+        <a href="/terms" class="hover:text-white transition-colors">Terms</a>
+      </div>
+    </div>
+
+  </div>
+</footer>

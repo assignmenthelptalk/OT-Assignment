@@ -1,0 +1,62 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  title: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  canonicalUrl: string;
+  ogType?: string;
+  ogImage?: string;
+  noindex?: boolean;
+  breadcrumbs: Crumb[];
+  schemaType?: 'Service' | 'Article' | 'FAQPage';
+}
+
+const {
+  breadcrumbs,
+  schemaType = 'Service',
+  title,
+  metaTitle,
+  metaDescription,
+  canonicalUrl,
+  ...rest
+} = Astro.props;
+
+const SITE_URL = 'https://otassignmenthelp.co.uk';
+
+const schemaJson = {
+  '@context': 'https://schema.org',
+  '@type': schemaType,
+  name: title,
+  url: `${SITE_URL}${canonicalUrl}`,
+  ...(metaDescription ? { description: metaDescription } : {}),
+};
+---
+
+<BaseLayout
+  title={title}
+  metaTitle={metaTitle}
+  metaDescription={metaDescription}
+  canonicalUrl={canonicalUrl}
+  {...rest}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaJson)} />
+  </Fragment>
+
+  <main>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+      <Breadcrumb crumbs={breadcrumbs} />
+      <article class="prose-article mt-4">
+        <slot />
+      </article>
+    </div>
+  </main>
+</BaseLayout>

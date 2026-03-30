@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactForm from '../components/ContactForm.astro';
 ---
 
 <BaseLayout
@@ -9,7 +10,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   canonicalUrl="/"
   ogType="website"
 >
-  <main class="min-h-screen">
+  <main>
+
+    <!-- Hero -->
     <section class="bg-primary-800 text-white py-16 px-4">
       <div class="max-w-7xl mx-auto">
         <h1 class="text-4xl lg:text-5xl font-bold leading-tight mb-6">
@@ -19,13 +22,199 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           OT-qualified writers. All UK universities. BSc to OTD level. Case studies,
           reflective essays, literature reviews, MOHO, CMOP-E, OTPF and more.
         </p>
-        <a
-          href="/contact"
-          class="inline-block mt-8 bg-accent-500 hover:bg-accent-400 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200"
-        >
-          Get a Free Quote
-        </a>
+        <div class="flex flex-wrap gap-4 mt-8">
+          <a
+            href="/contact"
+            class="inline-block bg-accent-500 hover:bg-accent-400 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200"
+          >
+            Get a Free Quote
+          </a>
+          <a
+            href="/occupational-therapy-assignment-help"
+            class="inline-block border border-primary-300 hover:bg-primary-700 text-white font-medium px-8 py-4 rounded-xl transition-all duration-200"
+          >
+            Read the full guide →
+          </a>
+        </div>
       </div>
     </section>
+
+    <!-- Services grid -->
+    <section class="py-16 px-4 bg-[var(--color-bg-surface)]">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-primary-800 text-center mb-3">
+          Specialist OT Assignment Support — Every Format Covered
+        </h2>
+        <p class="text-center text-[var(--color-text-secondary)] mb-12 max-w-2xl mx-auto">
+          Each service is delivered by writers with occupational therapy qualifications — not
+          generalist academic writers.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <a href="/ot-case-study-assignment-help"
+             class="bg-white border border-[var(--color-border)] rounded-xl p-6 hover:shadow-lg hover:border-primary-600 transition-all duration-200 group">
+            <div class="text-secondary-600 text-2xl mb-3">📋</div>
+            <h3 class="font-semibold text-primary-800 group-hover:text-primary-600 mb-2">OT Case Study Help</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              Occupational profiles, COPM/MOHOST scoring, clinical reasoning, SMART goals and intervention planning.
+            </p>
+          </a>
+
+          <a href="/ot-reflective-essay-assignment-help"
+             class="bg-white border border-[var(--color-border)] rounded-xl p-6 hover:shadow-lg hover:border-primary-600 transition-all duration-200 group">
+            <div class="text-secondary-600 text-2xl mb-3">✍️</div>
+            <h3 class="font-semibold text-primary-800 group-hover:text-primary-600 mb-2">Reflective Essay &amp; Placement Help</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              Gibbs, Schon and Johns models applied correctly. HCPC Standards of Proficiency referenced by code number.
+            </p>
+          </a>
+
+          <a href="/ot-literature-review-assignment-help"
+             class="bg-white border border-[var(--color-border)] rounded-xl p-6 hover:shadow-lg hover:border-primary-600 transition-all duration-200 group">
+            <div class="text-secondary-600 text-2xl mb-3">🔬</div>
+            <h3 class="font-semibold text-primary-800 group-hover:text-primary-600 mb-2">Literature Review Help</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              PICO construction, OTseeker/CINAHL searching, CASP and PEDro critical appraisal, evidence synthesis.
+            </p>
+          </a>
+
+          <a href="/activity-analysis-assignment-help"
+             class="bg-white border border-[var(--color-border)] rounded-xl p-6 hover:shadow-lg hover:border-primary-600 transition-all duration-200 group">
+            <div class="text-secondary-600 text-2xl mb-3">🧩</div>
+            <h3 class="font-semibold text-primary-800 group-hover:text-primary-600 mb-2">Activity Analysis Help</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              All 8 OTPF demand categories applied. Physical, cognitive and sensory demands graded for your client population.
+            </p>
+          </a>
+
+          <a href="/moho-assignment-help"
+             class="bg-white border border-[var(--color-border)] rounded-xl p-6 hover:shadow-lg hover:border-primary-600 transition-all duration-200 group">
+            <div class="text-secondary-600 text-2xl mb-3">🏗️</div>
+            <h3 class="font-semibold text-primary-800 group-hover:text-primary-600 mb-2">MOHO Assignment Help</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              Volition, habituation, performance capacity and environment constructs applied correctly. MOHOST, OPHI-II, OCAIRS scoring.
+            </p>
+          </a>
+
+          <a href="/cmop-e-assignment-help"
+             class="bg-white border border-[var(--color-border)] rounded-xl p-6 hover:shadow-lg hover:border-primary-600 transition-all duration-200 group">
+            <div class="text-secondary-600 text-2xl mb-3">🍁</div>
+            <h3 class="font-semibold text-primary-800 group-hover:text-primary-600 mb-2">CMOP-E Assignment Help</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              Spirituality, COPM scoring, CPPF action points and person-environment-occupation application.
+            </p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust section -->
+    <section class="py-16 px-4">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-primary-800 text-center mb-12">
+          Why OT Students Choose Us
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+
+          <div>
+            <div class="text-4xl font-bold text-secondary-600 mb-3">OT-Qualified</div>
+            <h3 class="text-lg font-semibold text-primary-800 mb-2">Writers with OT Credentials</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              Not general academic writers. Every writer holds UK OT qualifications and understands HCPC standards, clinical reasoning, and occupational science.
+            </p>
+          </div>
+
+          <div>
+            <div class="text-4xl font-bold text-secondary-600 mb-3">All UK Unis</div>
+            <h3 class="text-lg font-semibold text-primary-800 mb-2">Every HCPC-Approved Programme</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              HCPC and RCOT aligned for every UK OT programme — Brunel, Sheffield Hallam, Cardiff, Ulster, Queen Margaret Edinburgh and all others.
+            </p>
+          </div>
+
+          <div>
+            <div class="text-4xl font-bold text-secondary-600 mb-3">BSc → OTD</div>
+            <h3 class="text-lg font-semibold text-primary-800 mb-2">Every Qualification Level</h3>
+            <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+              From Level 4 introductory essays through Level 7 MSc dissertations to OTD doctoral proposals. Assignment complexity is matched to your level.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote form -->
+    <section class="py-4 px-4 bg-[var(--color-bg-surface)]">
+      <div class="max-w-3xl mx-auto">
+        <ContactForm
+          headingText="Get a Free Quote"
+          subText="Tell us your assignment type, level and deadline. Response within 24 hours."
+          formId="homepage-quote"
+        />
+      </div>
+    </section>
+
+    <!-- FAQ accordion -->
+    <section class="py-16 px-4">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold text-primary-800 mb-10">Frequently Asked Questions</h2>
+        <div class="space-y-3">
+
+          <details class="border border-[var(--color-border)] rounded-xl overflow-hidden group">
+            <summary class="flex justify-between items-center px-6 py-4 cursor-pointer bg-white font-semibold text-primary-800 hover:bg-primary-50 transition-colors">
+              Can you help with OT assignments at any UK university?
+              <span class="text-primary-600 transition-transform group-open:rotate-180 shrink-0 ml-2">▾</span>
+            </summary>
+            <div class="px-6 pb-5 pt-2 bg-white text-[var(--color-text-secondary)] text-sm leading-relaxed">
+              Yes — the service supports OT students at all UK universities running HCPC-approved OT programmes, including Brunel University London, Sheffield Hallam, Cardiff University, Ulster University, Queen Margaret University Edinburgh, Coventry University, and all other HCPC-approved institutions. Because the HCPC Standards of Proficiency for Occupational Therapists apply universally across all approved programmes, assignment formats follow the same HCPC-aligned marking criteria regardless of institution.
+            </div>
+          </details>
+
+          <details class="border border-[var(--color-border)] rounded-xl overflow-hidden group">
+            <summary class="flex justify-between items-center px-6 py-4 cursor-pointer bg-white font-semibold text-primary-800 hover:bg-primary-50 transition-colors">
+              What OT models do you use in assignments — MOHO, CMOP-E, or OTPF?
+              <span class="text-primary-600 transition-transform group-open:rotate-180 shrink-0 ml-2">▾</span>
+            </summary>
+            <div class="px-6 pb-5 pt-2 bg-white text-[var(--color-text-secondary)] text-sm leading-relaxed">
+              The service uses all major OT theoretical models including MOHO, CMOP-E, OTPF (4th edition), PEOP, and the Kawa Model. Model selection follows the assignment brief — MOHO is applied with all constructs (volition, habituation, performance capacity, environment) correctly differentiated. If the brief specifies CMOP-E, the person-environment-occupation triangle and spirituality construct are applied correctly. Model application is calibrated to your specific assignment requirements, not generic.
+            </div>
+          </details>
+
+          <details class="border border-[var(--color-border)] rounded-xl overflow-hidden group">
+            <summary class="flex justify-between items-center px-6 py-4 cursor-pointer bg-white font-semibold text-primary-800 hover:bg-primary-50 transition-colors">
+              Do you support OT students on practice placement with their reflective journals?
+              <span class="text-primary-600 transition-transform group-open:rotate-180 shrink-0 ml-2">▾</span>
+            </summary>
+            <div class="px-6 pb-5 pt-2 bg-white text-[var(--color-text-secondary)] text-sm leading-relaxed">
+              Yes — practice placement journal help is one of the most frequently requested services. Reflective journal entries are structured using Gibbs, Schon, or Johns models and reference specific HCPC standard codes relevant to the placement scenario. Common placement types supported include acute hospital, community OT, mental health, paediatric, hand therapy, neurological rehabilitation, and specialist services.
+            </div>
+          </details>
+
+          <details class="border border-[var(--color-border)] rounded-xl overflow-hidden group">
+            <summary class="flex justify-between items-center px-6 py-4 cursor-pointer bg-white font-semibold text-primary-800 hover:bg-primary-50 transition-colors">
+              How quickly can I get help with an OT assignment?
+              <span class="text-primary-600 transition-transform group-open:rotate-180 shrink-0 ml-2">▾</span>
+            </summary>
+            <div class="px-6 pb-5 pt-2 bg-white text-[var(--color-text-secondary)] text-sm leading-relaxed">
+              Standard turnaround is 5–7 days from submission of the assignment brief, marking rubric, word count, and any provided vignette or placement notes. Express turnaround (48–72 hours) is available for urgent deadlines. For complex Level 7 assignments — dissertations, systematic literature reviews — above 8,000 words, a minimum of 7–10 days is recommended. Turnaround times are confirmed at quote stage.
+            </div>
+          </details>
+
+          <details class="border border-[var(--color-border)] rounded-xl overflow-hidden group">
+            <summary class="flex justify-between items-center px-6 py-4 cursor-pointer bg-white font-semibold text-primary-800 hover:bg-primary-50 transition-colors">
+              Is occupational therapy assignment help available for international OT students?
+              <span class="text-primary-600 transition-transform group-open:rotate-180 shrink-0 ml-2">▾</span>
+            </summary>
+            <div class="px-6 pb-5 pt-2 bg-white text-[var(--color-text-secondary)] text-sm leading-relaxed">
+              Yes — the service supports OT students studying in the UK, USA, Australia, and Canada. Referencing format is adjusted to the programme requirement: Harvard for UK programmes; APA 7th edition for Australian and North American programmes. OT framework terminology is adapted where necessary — AOTA's OTPF for US/Canadian students, WFOT standards for international programmes, RCOT/HCPC standards for UK students.
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
   </main>
 </BaseLayout>

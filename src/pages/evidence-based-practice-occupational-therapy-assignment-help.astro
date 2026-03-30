@@ -1,107 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Evidence-Based Practice OT Assignment Help — EBP &amp; Critical Appraisal</title>
-  <meta name="description" content="Expert help with evidence-based practice occupational therapy assignments. CASP appraisal, PEDro scale, hierarchy of evidence, OTseeker, and EBP argument writing for BSc and MSc OT students." />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: system-ui, Georgia, serif; background: #fff; color: #222; line-height: 1.8; font-size: 16px; }
-    .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
-    header { background: #2c5282; color: white; padding: 16px 0; }
-    header .container { display: flex; align-items: center; justify-content: space-between; }
-    header .site-name { font-size: 20px; font-weight: bold; color: white; text-decoration: none; }
-    nav a { color: #e6f0fa; text-decoration: none; margin-left: 18px; font-size: 14px; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 40px 0; }
-    h1 { font-size: 32px; color: #2c5282; margin-bottom: 20px; line-height: 1.3; }
-    h2 { font-size: 24px; color: #2c5282; margin: 36px 0 14px; line-height: 1.35; }
-    h3 { font-size: 18px; color: #1a3a5c; margin: 24px 0 10px; }
-    p { margin-bottom: 16px; }
-    ul, ol { margin: 12px 0 16px 24px; }
-    li { margin-bottom: 6px; }
-    .infographic-container { max-width: 700px; margin: 24px auto; padding: 20px 0; text-align: center; }
-    .infographic-container img { width: 100%; height: auto; border-radius: 6px; }
-    .cta-box { background: #2c5282; color: white; padding: 30px; border-radius: 8px; text-align: center; margin: 40px 0; }
-    .cta-box h2 { color: white; margin-top: 0; }
-    .cta-box p { color: #e6f0fa; }
-    .cta-box a { background: white; color: #2c5282; padding: 12px 28px; border-radius: 4px; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 12px; }
-    .cta-box a:hover { background: #e6f0fa; }
-    .eav-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-    .eav-table th { background: #2c5282; color: white; padding: 10px; text-align: left; }
-    .eav-table td { padding: 10px; border: 1px solid #ddd; }
-    .eav-table tr:nth-child(even) { background: #f5f9ff; }
-    .contextual-border { background: #fff3cd; border-left: 4px solid #ffc107; padding: 16px 20px; margin: 30px 0; font-style: italic; }
-    blockquote { border-left: 3px solid #2c5282; padding-left: 16px; color: #555; margin: 20px 0; }
-    .section-divider { border: none; border-top: 2px solid #e6f0fa; margin: 40px 0; }
-    .supplementary { background: #f9fbff; border-radius: 8px; padding: 30px; margin: 30px 0; }
-    .contact-form { background: #f5f9ff; border: 1px solid #d0e4f7; border-radius: 8px; padding: 30px; margin: 30px 0; }
-    .contact-form h3 { margin-top: 0; }
-    .form-group { margin-bottom: 16px; }
-    .form-group label { display: block; font-weight: bold; margin-bottom: 6px; color: #2c5282; }
-    .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #c0cfe0; border-radius: 4px; font-size: 15px; }
-    .form-group textarea { min-height: 100px; resize: vertical; }
-    .form-submit { background: #2c5282; color: white; border: none; padding: 12px 28px; border-radius: 4px; font-size: 16px; font-weight: bold; cursor: pointer; }
-    .form-submit:hover { background: #1a3a5c; }
-    .faq-item { margin-bottom: 28px; }
-    .faq-item h3 { color: #2c5282; }
-    footer { background: #1a3a5c; color: #e6f0fa; padding: 28px 0; margin-top: 60px; text-align: center; font-size: 14px; }
-    .evidence-level-table td:first-child { font-weight: bold; }
-  </style>
-</head>
-<body>
+---
+import ServiceLayout from '../layouts/ServiceLayout.astro';
+import ContactForm from '../components/ContactForm.astro';
+---
 
-<header>
-  <div class="container">
-    <a class="site-name" href="/occupational-therapy-assignment-help">OT Assignment Help</a>
-    <nav>
-      <a href="/occupational-therapy-assignment-help">Home</a>
-      <a href="/ot-case-study-assignment-help">Case Studies</a>
-      <a href="/evidence-based-practice-ot-assignment-help">EBP</a>
-      <a href="/moho-assignment-help">MOHO</a>
-      <a href="/activity-analysis-assignment-help">Activity Analysis</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <div class="container">
-    <article>
+<ServiceLayout
+  title="Evidence-Based Practice Occupational Therapy Assignment Help — CASP, PEDro and Hierarchy of Evidence"
+  metaTitle="Evidence-Based Practice OT Assignment Help — EBP & Critical Appraisal"
+  metaDescription="Expert help with evidence-based practice occupational therapy assignments. CASP appraisal, PEDro scale, hierarchy of evidence, OTseeker, and EBP argument writing for BSc and MSc OT students."
+  canonicalUrl="/evidence-based-practice-occupational-therapy-assignment-help"
+  breadcrumbs={[
+    { label: 'Home', href: '/' },
+    { label: 'EBP' },
+  ]}
+  schemaType="Service"
+>
+  <ContactForm
+    headingText="Get a Free Quote for Your OT Assignment"
+    subText="OT-qualified writers. Response within 24 hours."
+    formId="contact-form"
+    compact={true}
+  />
 
       <h1>Evidence-Based Practice Occupational Therapy Assignment Help — CASP, PEDro and Hierarchy of Evidence</h1>
 
       <p>Evidence-based practice in occupational therapy assignments requires the integration of three equally weighted pillars — best available research evidence, individual clinical expertise, and patient/client values — as defined by Sackett et al. (1996). This is not optional academic content: HCPC Standards of Proficiency for Occupational Therapists mandate evidence-informed practice as a core registrant competency, and RCOT professional standards align with this requirement. OT degree programmes at Level 5, Level 6, and Level 7 assess EBP competency through critical appraisal assignments, evidence-based practice essays, literature reviews, and clinical case studies requiring evidence-supported intervention plans. This page covers every component of evidence-based practice OT assignment writing — the hierarchy of evidence, CASP critical appraisal tools, PEDro scale scoring, OT-specific databases, and EBP argument paragraph construction — for BSc and MSc OT students who need expert assignment help.</p>
-
-      <div class="contact-form">
-        <h3>Get Expert Help with Your EBP OT Assignment — Request a Free Quote</h3>
-        <p>OT-specialist EBP support. CASP appraisal, PEDro scoring, hierarchy of evidence, and EBP argument writing for BSc and MSc students.</p>
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name" placeholder="Full name" />
-        </div>
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="your@email.com" />
-        </div>
-        <div class="form-group">
-          <label for="assignment-type">Assignment Type</label>
-          <select id="assignment-type" name="assignment-type">
-            <option value="">-- Select --</option>
-            <option>EBP Essay</option>
-            <option>Critical Appraisal (CASP)</option>
-            <option>Literature Review</option>
-            <option>Systematic Literature Review</option>
-            <option>EBP Component of Case Study</option>
-            <option>Research Proposal</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="message">Qualification Level, Word Count &amp; Deadline</label>
-          <textarea id="message" name="message" placeholder="E.g. BSc Level 6 EBP essay, 3,000 words, deadline in 10 days. Describe what your assignment requires."></textarea>
-        </div>
-        <button class="form-submit" type="button">Request a Free Quote</button>
-      </div>
 
       <!-- H2: What Is EBP in OT -->
       <h2>What Is Evidence-Based Practice in Occupational Therapy?</h2>
@@ -124,7 +46,7 @@
       <p>The hierarchy of evidence classifies research studies by their methodological design, which determines their susceptibility to bias and therefore their strength as evidence for or against an intervention's effectiveness. In OT assignments, every cited source should be classified by its evidence level — stating "research shows that CIMT is effective" is insufficient; stating "Level 1A evidence from the Cochrane systematic review (Corbetta et al., 2015) demonstrates that CIMT produces significant improvements in upper limb function post-stroke" is the academic standard.</p>
 
       <div class="infographic-container">
-        <img src="../infographics/hierarchy-of-evidence-infographic.svg" alt="Hierarchy of evidence pyramid showing six levels from systematic reviews and meta-analyses at the top to expert opinion at the base, with occupational therapy examples at each level" width="100%" />
+        <img src="/hierarchy-of-evidence-infographic.svg" alt="Hierarchy of evidence pyramid showing six levels from systematic reviews and meta-analyses at the top to expert opinion at the base, with occupational therapy examples at each level" width="100%" />
       </div>
 
       <table class="eav-table evidence-level-table">
@@ -339,7 +261,7 @@
       <div class="contextual-border">
         <h2>Once You Have the Evidence — How Do You Build an EBP Argument in an OT Assignment?</h2>
         <p>Once you have classified the evidence level, appraised its quality using CASP or PEDro, and identified its application to your OT clinical question, the academic challenge is converting that evidence into a coherent written argument. Most OT students can locate and appraise evidence — fewer can construct a distinction-level EBP argument paragraph that integrates claim, evidence level, quality rating, critical appraisal, and client values into a single, logically structured academic sentence set. The sections below cover EBP argument paragraph construction and PICO framework application — the specific writing skills that separate pass-level from distinction-level EBP work in OT assignments.</p>
-        <p><em>Not sure how to structure your EBP argument? <a href="#quote-form" style="color:#1a3a5c;">Talk to our OT assignment experts.</a></em></p>
+        <p><em>Not sure how to structure your EBP argument? <a href="/contact" style="color:#1a3a5c;">Talk to our OT assignment experts.</a></em></p>
       </div>
 
       <!-- SUPPLEMENTARY CONTENT -->
@@ -387,28 +309,10 @@
       </div>
 
       <!-- Final CTA -->
-      <div id="quote-form" class="cta-box">
+      <div class="cta-box">
         <h2>Get Expert Help with Your EBP OT Assignment</h2>
         <p>CASP appraisal, PEDro scoring, hierarchy of evidence, OTseeker searching, and EBP argument writing — all covered by OT-qualified specialists. BSc and MSc level support.</p>
-        <a href="/occupational-therapy-assignment-help">View All OT Assignment Services</a>
+        <a href="/contact">View All OT Assignment Services</a>
       </div>
 
-    </article>
-  </div>
-</main>
-
-<footer>
-  <div class="container">
-    <p>&copy; 2025 OT Assignment Help. Expert academic support for occupational therapy students. All work produced is for educational reference purposes.</p>
-    <p style="margin-top:8px;">
-      <a href="/occupational-therapy-assignment-help" style="color:#e6f0fa; margin: 0 10px;">OT Assignment Help</a>
-      <a href="/ot-case-study-assignment-help" style="color:#e6f0fa; margin: 0 10px;">Case Studies</a>
-      <a href="/evidence-based-practice-ot-assignment-help" style="color:#e6f0fa; margin: 0 10px;">EBP</a>
-      <a href="/moho-assignment-help" style="color:#e6f0fa; margin: 0 10px;">MOHO</a>
-      <a href="/activity-analysis-assignment-help" style="color:#e6f0fa; margin: 0 10px;">Activity Analysis</a>
-    </p>
-  </div>
-</footer>
-
-</body>
-</html>
+</ServiceLayout>
