@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="moho-title moho-desc">
+  <title id="moho-title">MOHO Construct System — Model of Human Occupation</title>
+  <desc id="moho-desc">Diagram showing the four MOHO constructs — Volition, Habituation, Performance Capacity, and Environment — with their sub-constructs, all interacting to produce Occupational Engagement at the centre.</desc>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F4F9FA" rx="8"/>
+
+  <!-- Diagram title -->
+  <text x="400" y="38" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1D3557" text-anchor="middle">Model of Human Occupation — Construct System</text>
+  <text x="400" y="58" font-family="Inter, Arial, sans-serif" font-size="12" fill="#457B9D" text-anchor="middle">Kielhofner (1980 / 2008) · Open-Systems Model</text>
+
+  <!-- ===================== CENTRE NODE — Occupational Engagement ===================== -->
+  <ellipse cx="400" cy="310" rx="88" ry="60" fill="#1D3557" stroke="#FFFFFF" stroke-width="3"/>
+  <text x="400" y="301" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Occupational</text>
+  <text x="400" y="316" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Engagement</text>
+  <text x="400" y="331" font-family="Inter, Arial, sans-serif" font-size="10" fill="#2A9D8F" text-anchor="middle">(Outcome)</text>
+
+  <!-- ===================== CONNECTOR LINES — quadrant boxes to centre ===================== -->
+  <!-- Top-left (Volition) to centre -->
+  <line x1="248" y1="210" x2="322" y2="270" stroke="#457B9D" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Top-right (Habituation) to centre -->
+  <line x1="552" y1="210" x2="478" y2="270" stroke="#457B9D" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Bottom-left (Performance Capacity) to centre -->
+  <line x1="248" y1="410" x2="322" y2="352" stroke="#457B9D" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Bottom-right (Environment) to centre -->
+  <line x1="552" y1="410" x2="478" y2="352" stroke="#457B9D" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- ===================== TOP-LEFT BOX — Volition ===================== -->
+  <rect x="60" y="80" width="230" height="220" rx="10" fill="#1D3557" stroke="#2A9D8F" stroke-width="2"/>
+  <!-- Header bar -->
+  <rect x="60" y="80" width="230" height="38" rx="10" fill="#2A9D8F"/>
+  <rect x="60" y="104" width="230" height="14" fill="#2A9D8F"/>
+  <text x="175" y="103" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Volition</text>
+
+  <!-- Sub-construct: Personal Causation -->
+  <rect x="74" y="128" width="202" height="52" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="84" y="145" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#2A9D8F">Personal Causation</text>
+  <text x="84" y="160" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Sense of capacity</text>
+  <text x="84" y="173" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Sense of efficacy</text>
+
+  <!-- Sub-construct: Values -->
+  <rect x="74" y="186" width="202" height="52" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="84" y="203" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#2A9D8F">Values</text>
+  <text x="84" y="218" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Convictions (what matters)</text>
+  <text x="84" y="231" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Commitments (how to act)</text>
+
+  <!-- Sub-construct: Interests -->
+  <rect x="74" y="244" width="202" height="46" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="84" y="261" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#2A9D8F">Interests</text>
+  <text x="84" y="276" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Attraction · Enjoyment</text>
+
+  <!-- ===================== TOP-RIGHT BOX — Habituation ===================== -->
+  <rect x="510" y="80" width="230" height="220" rx="10" fill="#1D3557" stroke="#2A9D8F" stroke-width="2"/>
+  <rect x="510" y="80" width="230" height="38" rx="10" fill="#2A9D8F"/>
+  <rect x="510" y="104" width="230" height="14" fill="#2A9D8F"/>
+  <text x="625" y="103" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Habituation</text>
+
+  <!-- Sub-construct: Roles -->
+  <rect x="524" y="128" width="202" height="58" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="534" y="145" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#2A9D8F">Roles</text>
+  <text x="534" y="160" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Internalised social scripts</text>
+  <text x="534" y="173" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Defines WHAT occupations</text>
+  <text x="534" y="186" font-family="Inter, Arial, sans-serif" font-size="9" fill="#FFFFFF" fill-opacity="0.75">(parent, worker, student)</text>
+
+  <!-- Sub-construct: Habits -->
+  <rect x="524" y="192" width="202" height="58" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="534" y="209" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#2A9D8F">Habits</text>
+  <text x="534" y="224" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Acquired response tendencies</text>
+  <text x="534" y="237" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Defines HOW occupations done</text>
+  <text x="534" y="250" font-family="Inter, Arial, sans-serif" font-size="9" fill="#FFFFFF" fill-opacity="0.75">(operate without conscious attention)</text>
+
+  <!-- ===================== BOTTOM-LEFT BOX — Performance Capacity ===================== -->
+  <rect x="60" y="415" width="230" height="130" rx="10" fill="#457B9D" stroke="#2A9D8F" stroke-width="2"/>
+  <rect x="60" y="415" width="230" height="38" rx="10" fill="#457B9D"/>
+  <rect x="60" y="439" width="230" height="14" fill="#457B9D"/>
+  <text x="175" y="437" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Performance Capacity</text>
+
+  <rect x="74" y="459" width="202" height="38" rx="6" fill="#FFFFFF" fill-opacity="0.15"/>
+  <text x="84" y="474" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#F4F9FA">Objective Component</text>
+  <text x="84" y="488" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Musculoskeletal · Neurological · Cognitive</text>
+
+  <rect x="74" y="503" width="202" height="34" rx="6" fill="#FFFFFF" fill-opacity="0.15"/>
+  <text x="84" y="517" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#F4F9FA">Subjective Component</text>
+  <text x="84" y="531" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Lived body experience (phenomenological)</text>
+
+  <!-- ===================== BOTTOM-RIGHT BOX — Environment ===================== -->
+  <rect x="510" y="415" width="230" height="130" rx="10" fill="#457B9D" stroke="#2A9D8F" stroke-width="2"/>
+  <rect x="510" y="415" width="230" height="38" rx="10" fill="#457B9D"/>
+  <rect x="510" y="439" width="230" height="14" fill="#457B9D"/>
+  <text x="625" y="437" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Environment</text>
+
+  <rect x="524" y="459" width="202" height="26" rx="6" fill="#FFFFFF" fill-opacity="0.15"/>
+  <text x="534" y="476" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Physical: natural, built spaces, objects</text>
+
+  <rect x="524" y="491" width="202" height="26" rx="6" fill="#FFFFFF" fill-opacity="0.15"/>
+  <text x="534" y="508" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Social: groups, occupational forms</text>
+
+  <rect x="524" y="523" width="202" height="16" rx="6" fill="#FFFFFF" fill-opacity="0.15"/>
+  <text x="534" y="535" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">Occupational: opportunities, demands, constraints</text>
+
+  <!-- ===================== BOTTOM-LEFT corner vertical label for Performance Capacity (extra height) ===================== -->
+  <!-- Already rendered above, no overlap needed -->
+
+  <!-- ===================== LEGEND — interaction arrows note ===================== -->
+  <line x1="310" y1="556" x2="340" y2="556" stroke="#457B9D" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="346" y="560" font-family="Inter, Arial, sans-serif" font-size="10" fill="#457B9D">Interactive relationship with Occupational Engagement</text>
+
+  <!-- ===================== FOOTER ===================== -->
+  <text x="400" y="587" font-family="Inter, Arial, sans-serif" font-size="9" fill="#457B9D" text-anchor="middle" fill-opacity="0.8">ot-assignment-help.com · Based on Kielhofner's Model of Human Occupation (1980/2008)</text>
+</svg>

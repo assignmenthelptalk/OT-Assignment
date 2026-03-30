@@ -1,0 +1,187 @@
+<svg viewBox="0 0 800 550" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Inter','Segoe UI',Arial,sans-serif" role="img" aria-labelledby="infographic-title infographic-desc">
+  <title id="infographic-title">OT Placement Academic Components — The Five Required Academic Outputs for UK OT Practice Placement</title>
+  <desc id="infographic-desc">A checklist-style infographic showing the five key academic components of any OT practice placement: Learning Objectives, Reflective Journal, Case Presentation and Critical Incident Analysis, Supervision Records, and Competency Sign-off. Each component lists the key requirements and the RCOT domain or HCPC standard it evidences. Source: ot-assignment-help.com</desc>
+
+  <!-- Background -->
+  <rect width="800" height="550" fill="#F4F9FA" rx="12"/>
+
+  <!-- Header band -->
+  <rect x="0" y="0" width="800" height="74" fill="#1D3557" rx="12"/>
+  <rect x="0" y="50" width="800" height="24" fill="#1D3557"/>
+
+  <!-- Header text -->
+  <text x="400" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">OT Placement Academic Components</text>
+  <text x="400" y="56" text-anchor="middle" font-size="12" fill="#A8C8D8">Five Required Academic Outputs — UK Practice Placement (BSc / MSc OT)</text>
+
+  <!-- ===== STEP FLOW ARROW LINE ===== -->
+  <!-- Horizontal connector spine at y=155 -->
+  <line x1="88" y1="155" x2="712" y2="155" stroke="#2A9D8F" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- ===== COMPONENT 1: Learning Objectives ===== -->
+  <!-- Card -->
+  <rect x="20" y="86" width="140" height="282" fill="#FFFFFF" rx="10" stroke="#2A9D8F" stroke-width="2"/>
+  <!-- Number bubble -->
+  <circle cx="90" cy="113" r="18" fill="#2A9D8F"/>
+  <text x="90" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+  <!-- Arrow head pointing right -->
+  <polygon points="146,152 158,155 146,158" fill="#2A9D8F"/>
+
+  <text x="90" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Learning</text>
+  <text x="90" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Objectives</text>
+
+  <line x1="30" y1="172" x2="150" y2="172" stroke="#E0EEF4" stroke-width="1"/>
+
+  <text x="34" y="188" font-size="9.5" fill="#2C2C2C">&#x2713; SMART format</text>
+  <text x="34" y="204" font-size="9.5" fill="#2C2C2C">&#x2713; Student-led with</text>
+  <text x="34" y="216" font-size="9.5" fill="#2C2C2C">  PE input</text>
+  <text x="34" y="232" font-size="9.5" fill="#2C2C2C">&#x2713; Linked to HCPC</text>
+  <text x="34" y="244" font-size="9.5" fill="#2C2C2C">  standards</text>
+  <text x="34" y="260" font-size="9.5" fill="#2C2C2C">&#x2713; Negotiated at</text>
+  <text x="34" y="272" font-size="9.5" fill="#2C2C2C">  placement start</text>
+  <text x="34" y="288" font-size="9.5" fill="#2C2C2C">&#x2713; Reviewed at</text>
+  <text x="34" y="300" font-size="9.5" fill="#2C2C2C">  mid-point</text>
+
+  <!-- Standard tag -->
+  <rect x="26" y="334" width="128" height="26" fill="#1D3557" rx="5"/>
+  <text x="90" y="351" text-anchor="middle" font-size="8.5" fill="#FFFFFF">RCOT Domain 4 | HCPC 2.1</text>
+
+  <!-- When label -->
+  <text x="90" y="378" text-anchor="middle" font-size="8.5" fill="#457B9D" font-style="italic">Placement start + mid-point</text>
+
+  <!-- ===== COMPONENT 2: Reflective Journal ===== -->
+  <rect x="175" y="86" width="140" height="282" fill="#FFFFFF" rx="10" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="245" cy="113" r="18" fill="#2A9D8F"/>
+  <text x="245" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+  <polygon points="301,152 313,155 301,158" fill="#2A9D8F"/>
+
+  <text x="245" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Reflective</text>
+  <text x="245" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Journal</text>
+
+  <line x1="185" y1="172" x2="305" y2="172" stroke="#E0EEF4" stroke-width="1"/>
+
+  <text x="189" y="188" font-size="9.5" fill="#2C2C2C">&#x2713; Min. 2 entries/week</text>
+  <text x="189" y="204" font-size="9.5" fill="#2C2C2C">&#x2713; PARO framework:</text>
+  <text x="189" y="218" font-size="9" fill="#457B9D">  Practise · Affirm</text>
+  <text x="189" y="230" font-size="9" fill="#457B9D">  Reflect · Observe</text>
+  <text x="189" y="246" font-size="9.5" fill="#2C2C2C">&#x2713; Critical incident</text>
+  <text x="189" y="258" font-size="9.5" fill="#2C2C2C">  format entries</text>
+  <text x="189" y="274" font-size="9.5" fill="#2C2C2C">&#x2713; 500–800 words</text>
+  <text x="189" y="290" font-size="9.5" fill="#2C2C2C">  per entry</text>
+  <text x="189" y="306" font-size="9.5" fill="#2C2C2C">&#x2713; Real-time; not</text>
+  <text x="189" y="318" font-size="9.5" fill="#2C2C2C">  retrospective</text>
+
+  <rect x="181" y="334" width="128" height="26" fill="#1D3557" rx="5"/>
+  <text x="245" y="351" text-anchor="middle" font-size="8.5" fill="#FFFFFF">RCOT Domain 4 | HCPC 14.1</text>
+
+  <text x="245" y="378" text-anchor="middle" font-size="8.5" fill="#457B9D" font-style="italic">Ongoing — entire placement</text>
+
+  <!-- ===== COMPONENT 3: Critical Incident Analysis / Case Presentation ===== -->
+  <rect x="330" y="86" width="140" height="282" fill="#FFFFFF" rx="10" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="400" cy="113" r="18" fill="#2A9D8F"/>
+  <text x="400" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+  <polygon points="456,152 468,155 456,158" fill="#2A9D8F"/>
+
+  <text x="400" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Critical Incident</text>
+  <text x="400" y="160" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Analysis</text>
+
+  <line x1="340" y1="172" x2="460" y2="172" stroke="#E0EEF4" stroke-width="1"/>
+
+  <text x="344" y="188" font-size="9.5" fill="#2C2C2C">&#x2713; Min. 1 formal CIA</text>
+  <text x="344" y="204" font-size="9.5" fill="#2C2C2C">  per placement</text>
+  <text x="344" y="220" font-size="9.5" fill="#2C2C2C">&#x2713; 1,000–2,000 words</text>
+  <text x="344" y="236" font-size="9.5" fill="#2C2C2C">&#x2713; Links theory to</text>
+  <text x="344" y="248" font-size="9.5" fill="#2C2C2C">  clinical practice</text>
+  <text x="344" y="264" font-size="9.5" fill="#2C2C2C">&#x2713; Triggers: any</text>
+  <text x="344" y="276" font-size="9.5" fill="#2C2C2C">  significant event</text>
+  <text x="344" y="292" font-size="9.5" fill="#2C2C2C">&#x2713; PARO structure</text>
+  <text x="344" y="308" font-size="9.5" fill="#2C2C2C">  applied analytically</text>
+
+  <rect x="336" y="334" width="128" height="26" fill="#1D3557" rx="5"/>
+  <text x="400" y="351" text-anchor="middle" font-size="8.5" fill="#FFFFFF">RCOT Domain 3 | HCPC 13.1</text>
+
+  <text x="400" y="378" text-anchor="middle" font-size="8.5" fill="#457B9D" font-style="italic">Min. once per placement</text>
+
+  <!-- ===== COMPONENT 4: Supervision Records ===== -->
+  <rect x="485" y="86" width="140" height="282" fill="#FFFFFF" rx="10" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="555" cy="113" r="18" fill="#2A9D8F"/>
+  <text x="555" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+  <polygon points="611,152 623,155 611,158" fill="#2A9D8F"/>
+
+  <text x="555" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Supervision</text>
+  <text x="555" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Records</text>
+
+  <line x1="495" y1="172" x2="615" y2="172" stroke="#E0EEF4" stroke-width="1"/>
+
+  <text x="499" y="188" font-size="9.5" fill="#2C2C2C">&#x2713; Weekly with</text>
+  <text x="499" y="200" font-size="9.5" fill="#2C2C2C">  practice educator</text>
+  <text x="499" y="216" font-size="9.5" fill="#2C2C2C">&#x2713; Documents feedback</text>
+  <text x="499" y="228" font-size="9.5" fill="#2C2C2C">  received</text>
+  <text x="499" y="244" font-size="9.5" fill="#2C2C2C">&#x2713; Student action</text>
+  <text x="499" y="256" font-size="9.5" fill="#2C2C2C">  commitments logged</text>
+  <text x="499" y="272" font-size="9.5" fill="#2C2C2C">&#x2713; Portfolio evidence</text>
+  <text x="499" y="284" font-size="9.5" fill="#2C2C2C">  for HCPC 10.1</text>
+  <text x="499" y="300" font-size="9.5" fill="#2C2C2C">&#x2713; Signed by both</text>
+  <text x="499" y="312" font-size="9.5" fill="#2C2C2C">  student and PE</text>
+
+  <rect x="491" y="334" width="128" height="26" fill="#1D3557" rx="5"/>
+  <text x="555" y="351" text-anchor="middle" font-size="8.5" fill="#FFFFFF">RCOT Domain 2 | HCPC 10.1</text>
+
+  <text x="555" y="378" text-anchor="middle" font-size="8.5" fill="#457B9D" font-style="italic">Weekly throughout placement</text>
+
+  <!-- ===== COMPONENT 5: Competency Sign-off ===== -->
+  <rect x="640" y="86" width="140" height="282" fill="#FFFFFF" rx="10" stroke="#1D3557" stroke-width="2.5"/>
+  <!-- Highlighted last card -->
+  <rect x="640" y="86" width="140" height="30" fill="#1D3557" rx="10"/>
+  <rect x="640" y="100" width="140" height="16" fill="#1D3557"/>
+
+  <circle cx="710" cy="113" r="18" fill="#2A9D8F"/>
+  <text x="710" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+
+  <text x="710" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Competency</text>
+  <text x="710" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#1D3557">Sign-off</text>
+
+  <line x1="650" y1="172" x2="770" y2="172" stroke="#E0EEF4" stroke-width="1"/>
+
+  <text x="654" y="188" font-size="9.5" fill="#2C2C2C">&#x2713; PE weekly sign-off</text>
+  <text x="654" y="204" font-size="9.5" fill="#2C2C2C">&#x2713; 3 evidence types:</text>
+  <text x="654" y="218" font-size="9" fill="#457B9D">  Direct observation</text>
+  <text x="654" y="230" font-size="9" fill="#457B9D">  Written work</text>
+  <text x="654" y="242" font-size="9" fill="#457B9D">  Verbal feedback</text>
+  <text x="654" y="258" font-size="9.5" fill="#2C2C2C">&#x2713; All 4 RCOT domains</text>
+  <text x="654" y="270" font-size="9.5" fill="#2C2C2C">  must be evidenced</text>
+  <text x="654" y="286" font-size="9.5" fill="#2C2C2C">&#x2713; HCPC SoP 10.1,</text>
+  <text x="654" y="298" font-size="9.5" fill="#2C2C2C">  13.1, 14.1, 2.1</text>
+  <text x="654" y="314" font-size="9.5" fill="#2C2C2C">&#x2713; PASS confirms</text>
+  <text x="654" y="326" font-size="9.5" fill="#2C2C2C">  HCPC eligibility</text>
+
+  <rect x="646" y="334" width="128" height="26" fill="#2A9D8F" rx="5"/>
+  <text x="710" y="351" text-anchor="middle" font-size="8.5" fill="#FFFFFF" font-weight="700">All RCOT Domains + HCPC SoP</text>
+
+  <text x="710" y="378" text-anchor="middle" font-size="8.5" fill="#457B9D" font-style="italic">Mid-point and end of placement</text>
+
+  <!-- ===== Bottom info strip ===== -->
+  <rect x="20" y="395" width="760" height="60" fill="#1D3557" rx="8"/>
+
+  <text x="40" y="416" font-size="9" font-weight="700" fill="#2A9D8F">HCPC MINIMUM REQUIREMENT</text>
+  <text x="40" y="432" font-size="9" fill="#FFFFFF">1,000 practice placement hours for BSc OT registration eligibility</text>
+  <text x="40" y="448" font-size="9" fill="#A8C8D8">Minimum 3 placements | Each placement 4–8 weeks | Academic outputs assessed separately from clinical performance</text>
+
+  <line x1="310" y1="400" x2="310" y2="450" stroke="#457B9D" stroke-width="1"/>
+
+  <text x="330" y="416" font-size="9" font-weight="700" fill="#2A9D8F">RCOT COMPETENCY DOMAINS</text>
+  <text x="330" y="432" font-size="9" fill="#FFFFFF">Domain 1: Professional Practice  |  Domain 2: Communication</text>
+  <text x="330" y="448" font-size="9" fill="#FFFFFF">Domain 3: Assessment &amp; Intervention  |  Domain 4: Professional Development</text>
+
+  <line x1="590" y1="400" x2="590" y2="450" stroke="#457B9D" stroke-width="1"/>
+
+  <text x="605" y="416" font-size="9" font-weight="700" fill="#2A9D8F">FAIL TRIGGERS</text>
+  <text x="605" y="432" font-size="9" fill="#FFFFFF">2+ marginal fail indicators</text>
+  <text x="605" y="448" font-size="9" fill="#FFFFFF">initiate at-risk process</text>
+
+  <!-- ===== Footer ===== -->
+  <text x="400" y="478" text-anchor="middle" font-size="8.5" fill="#457B9D">ot-assignment-help.com</text>
+  <text x="400" y="494" text-anchor="middle" font-size="8" fill="#A0AABB">Expert OT placement portfolio, reflective journal, and competency documentation support for BSc, MSc and OTD students</text>
+
+  <!-- Decorative accent line under header -->
+  <rect x="0" y="73" width="800" height="4" fill="#2A9D8F"/>
+</svg>

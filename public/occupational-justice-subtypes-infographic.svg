@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Occupational Justice Four Subtypes — Townsend and Wilcock framework diagram">
+  <title>Occupational Justice: Four Subtypes (Townsend &amp; Wilcock)</title>
+  <desc>A four-quadrant diagram defining occupational apartheid, deprivation, imbalance, and marginalisation with examples for each subtype.</desc>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F4F9FA"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="72" fill="#1D3557"/>
+  <text x="400" y="30" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">Occupational Justice</text>
+  <text x="400" y="56" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="400" fill="#A8C8D8" text-anchor="middle">Four Subtypes — Townsend &amp; Wilcock (2004)</text>
+
+  <!-- === CARD 1: Occupational Apartheid (top-left) === -->
+  <rect x="20" y="88" width="370" height="190" rx="8" ry="8" fill="#1D3557"/>
+  <!-- accent bar -->
+  <rect x="20" y="88" width="6" height="190" rx="3" ry="3" fill="#2A9D8F"/>
+  <!-- card number circle -->
+  <circle cx="56" cy="108" r="14" fill="#2A9D8F"/>
+  <text x="56" y="113" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <!-- heading -->
+  <text x="78" y="103" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Occupational Apartheid</text>
+  <text x="78" y="120" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="400" fill="#2A9D8F">Townsend &amp; Wilcock, 2004</text>
+  <!-- divider -->
+  <line x1="36" y1="132" x2="378" y2="132" stroke="#457B9D" stroke-width="1"/>
+  <!-- definition label -->
+  <text x="36" y="150" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" fill="#A8C8D8" letter-spacing="1">DEFINITION</text>
+  <!-- definition text — wrapped manually -->
+  <text x="36" y="167" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">Systematic exclusion of groups from meaningful</text>
+  <text x="36" y="183" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">occupation through social, political, or economic</text>
+  <text x="36" y="199" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">structures — regardless of individual capacity.</text>
+  <!-- example label -->
+  <text x="36" y="220" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" fill="#A8C8D8" letter-spacing="1">EXAMPLE</text>
+  <!-- example text -->
+  <text x="36" y="237" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">People with severe disabilities excluded from</text>
+  <text x="36" y="252" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">employment by inaccessible environments.</text>
+  <text x="36" y="267" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8"> </text>
+
+  <!-- === CARD 2: Occupational Deprivation (top-right) === -->
+  <rect x="410" y="88" width="370" height="190" rx="8" ry="8" fill="#1D3557"/>
+  <rect x="410" y="88" width="6" height="190" rx="3" ry="3" fill="#457B9D"/>
+  <circle cx="446" cy="108" r="14" fill="#457B9D"/>
+  <text x="446" y="113" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="468" y="103" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Occupational Deprivation</text>
+  <text x="468" y="120" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="400" fill="#457B9D">Townsend &amp; Wilcock, 2004</text>
+  <line x1="426" y1="132" x2="768" y2="132" stroke="#457B9D" stroke-width="1"/>
+  <text x="426" y="150" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" fill="#A8C8D8" letter-spacing="1">DEFINITION</text>
+  <text x="426" y="167" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">External circumstances — incarceration, illness,</text>
+  <text x="426" y="183" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">displacement — that prevent participation in</text>
+  <text x="426" y="199" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">occupations a person needs or wants to do.</text>
+  <text x="426" y="220" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" fill="#A8C8D8" letter-spacing="1">EXAMPLE</text>
+  <text x="426" y="237" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">A refugee in temporary accommodation unable</text>
+  <text x="426" y="252" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">to maintain prior work occupation due to legal</text>
+  <text x="426" y="267" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">and structural barriers.</text>
+
+  <!-- === CARD 3: Occupational Imbalance (bottom-left) === -->
+  <rect x="20" y="292" width="370" height="190" rx="8" ry="8" fill="#1D3557"/>
+  <rect x="20" y="292" width="6" height="190" rx="3" ry="3" fill="#E9C46A"/>
+  <circle cx="56" cy="312" r="14" fill="#E9C46A"/>
+  <text x="56" y="317" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#1D3557" text-anchor="middle">3</text>
+  <text x="78" y="307" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Occupational Imbalance</text>
+  <text x="78" y="324" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="400" fill="#E9C46A">Townsend &amp; Wilcock, 2004</text>
+  <line x1="36" y1="336" x2="378" y2="336" stroke="#457B9D" stroke-width="1"/>
+  <text x="36" y="354" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" fill="#A8C8D8" letter-spacing="1">DEFINITION</text>
+  <text x="36" y="371" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">Mismatch between the amount and type of</text>
+  <text x="36" y="387" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">occupation engaged in and the person's needs —</text>
+  <text x="36" y="403" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">too much obligatory or too little meaningful occupation.</text>
+  <text x="36" y="424" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" fill="#A8C8D8" letter-spacing="1">EXAMPLE</text>
+  <text x="36" y="441" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">A carer whose entire daily schedule is consumed</text>
+  <text x="36" y="456" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">by caregiving, leaving no time for leisure or</text>
+  <text x="36" y="471" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">self-care occupations.</text>
+
+  <!-- === CARD 4: Occupational Marginalisation (bottom-right) === -->
+  <rect x="410" y="292" width="370" height="190" rx="8" ry="8" fill="#1D3557"/>
+  <rect x="410" y="292" width="6" height="190" rx="3" ry="3" fill="#E76F51"/>
+  <circle cx="446" cy="312" r="14" fill="#E76F51"/>
+  <text x="446" y="317" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="468" y="307" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Occupational Marginalisation</text>
+  <text x="468" y="324" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="400" fill="#E76F51">Townsend &amp; Wilcock, 2004</text>
+  <line x1="426" y1="336" x2="768" y2="336" stroke="#457B9D" stroke-width="1"/>
+  <text x="426" y="354" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" fill="#A8C8D8" letter-spacing="1">DEFINITION</text>
+  <text x="426" y="371" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">Occupation choices are undermined by others'</text>
+  <text x="426" y="387" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">expectations, norms, or cultural values — the</text>
+  <text x="426" y="403" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E8F1F5">person is denied the right to occupational choice.</text>
+  <text x="426" y="424" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" fill="#A8C8D8" letter-spacing="1">EXAMPLE</text>
+  <text x="426" y="441" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">A child with autism whose sensory preferences</text>
+  <text x="426" y="456" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">are dismissed, denying their right to choose</text>
+  <text x="426" y="471" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11.5" font-style="italic" fill="#C8DDE8">occupational environments.</text>
+
+  <!-- centre connector line (decorative) -->
+  <line x1="395" y1="88" x2="395" y2="482" stroke="#2A9D8F" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+  <line x1="20" y1="285" x2="780" y2="285" stroke="#2A9D8F" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+
+  <!-- footer attribution -->
+  <text x="400" y="495" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#457B9D" text-anchor="middle">Source: Townsend &amp; Wilcock (2004). Occupational justice and client-centred practice. Canadian Journal of Occupational Therapy.</text>
+</svg>

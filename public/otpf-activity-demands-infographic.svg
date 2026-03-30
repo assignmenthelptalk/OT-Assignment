@@ -1,0 +1,187 @@
+<svg viewBox="0 0 800 600" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="infographic-title infographic-desc">
+  <title id="infographic-title">OTPF-4 Activity Demands — 8 Categories</title>
+  <desc id="infographic-desc">A visual framework showing all eight OTPF 4th edition activity demand categories used in occupational therapy activity analysis assignments, with definitions and examples for cooking and handwriting.</desc>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F4F9FA" rx="0" ry="0"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="72" fill="#1D3557"/>
+  <text x="400" y="30" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">OTPF-4 Activity Demands — 8 Categories</text>
+  <text x="400" y="54" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#A8C8D8">Occupational Therapy Practice Framework, 4th Edition (AOTA, 2020) | Activity Analysis Framework</text>
+
+  <!-- Grid: 4 columns x 2 rows -->
+  <!-- Row 1 -->
+
+  <!-- Cat 1: Objects and Their Properties -->
+  <rect x="12" y="84" width="183" height="230" rx="6" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="2"/>
+  <rect x="12" y="84" width="183" height="36" rx="6" fill="#2A9D8F"/>
+  <rect x="12" y="104" width="183" height="16" fill="#2A9D8F"/>
+  <text x="103" y="107" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">1. Objects &amp; Their Properties</text>
+  <text x="20" y="136" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#1D3557">Definition:</text>
+  <text x="20" y="150" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Tools, materials, and equipment</text>
+  <text x="20" y="162" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">required and their physical</text>
+  <text x="20" y="174" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">properties: weight, size, texture,</text>
+  <text x="20" y="186" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">temperature, shape, complexity.</text>
+  <line x1="20" y1="194" x2="184" y2="194" stroke="#E0EDF4" stroke-width="1"/>
+  <text x="20" y="208" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Cooking:</text>
+  <text x="20" y="220" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Knife (200g, sharp blade); saucepan</text>
+  <text x="20" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">(1.2kg full, hot surface, two-hand grip);</text>
+  <text x="20" y="244" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">hob controls (small, fine motor).</text>
+  <text x="20" y="258" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Handwriting:</text>
+  <text x="20" y="270" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Pen (15g, 3-jaw grasp); A4 paper;</text>
+  <text x="20" y="282" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">desk (standard height 72–76cm).</text>
+  <circle cx="25" cy="103" r="8" fill="#FFFFFF" opacity="0.25"/>
+  <text x="25" y="107" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="900" fill="#FFFFFF">1</text>
+
+  <!-- Cat 2: Space Demands -->
+  <rect x="205" y="84" width="183" height="230" rx="6" fill="#FFFFFF" stroke="#457B9D" stroke-width="2"/>
+  <rect x="205" y="84" width="183" height="36" rx="6" fill="#457B9D"/>
+  <rect x="205" y="104" width="183" height="16" fill="#457B9D"/>
+  <text x="296" y="107" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">2. Space Demands</text>
+  <text x="213" y="136" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#1D3557">Definition:</text>
+  <text x="213" y="150" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Physical environment requirements:</text>
+  <text x="213" y="162" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">area dimensions, surface type,</text>
+  <text x="213" y="174" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">lighting level, temperature,</text>
+  <text x="213" y="186" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">noise, accessibility.</text>
+  <line x1="213" y1="194" x2="378" y2="194" stroke="#E0EDF4" stroke-width="1"/>
+  <text x="213" y="208" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Cooking:</text>
+  <text x="213" y="220" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Counter height 85–90cm; min. 300</text>
+  <text x="213" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">lux lighting; 1.5–2m clear floor</text>
+  <text x="213" y="244" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">space; ventilation; wet floor hazard.</text>
+  <text x="213" y="258" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Handwriting:</text>
+  <text x="213" y="270" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Desk 60×40cm; chair 45–50cm;</text>
+  <text x="213" y="282" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">300–500 lux ambient lighting.</text>
+  <circle cx="218" cy="103" r="8" fill="#FFFFFF" opacity="0.25"/>
+  <text x="218" y="107" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="900" fill="#FFFFFF">2</text>
+
+  <!-- Cat 3: Social Demands -->
+  <rect x="398" y="84" width="183" height="230" rx="6" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="2"/>
+  <rect x="398" y="84" width="183" height="36" rx="6" fill="#2A9D8F"/>
+  <rect x="398" y="104" width="183" height="16" fill="#2A9D8F"/>
+  <text x="489" y="107" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">3. Social Demands</text>
+  <text x="406" y="136" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#1D3557">Definition:</text>
+  <text x="406" y="150" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Communication and interaction</text>
+  <text x="406" y="162" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">requirements; independent vs.</text>
+  <text x="406" y="174" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">cooperative nature; number and</text>
+  <text x="406" y="186" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">type of participants; social rules.</text>
+  <line x1="406" y1="194" x2="571" y2="194" stroke="#E0EDF4" stroke-width="1"/>
+  <text x="406" y="208" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Cooking:</text>
+  <text x="406" y="220" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Typically independent; group cooking</text>
+  <text x="406" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">adds turn-taking, shared equipment,</text>
+  <text x="406" y="244" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">coordinated timing demands.</text>
+  <text x="406" y="258" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Handwriting:</text>
+  <text x="406" y="270" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Task is independent; product serves</text>
+  <text x="406" y="282" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">a communicative social function.</text>
+  <circle cx="411" cy="103" r="8" fill="#FFFFFF" opacity="0.25"/>
+  <text x="411" y="107" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="900" fill="#FFFFFF">3</text>
+
+  <!-- Cat 4: Sequencing and Timing -->
+  <rect x="591" y="84" width="197" height="230" rx="6" fill="#FFFFFF" stroke="#457B9D" stroke-width="2"/>
+  <rect x="591" y="84" width="197" height="36" rx="6" fill="#457B9D"/>
+  <rect x="591" y="104" width="197" height="16" fill="#457B9D"/>
+  <text x="689" y="107" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">4. Sequencing &amp; Timing</text>
+  <text x="599" y="136" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#1D3557">Definition:</text>
+  <text x="599" y="150" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Number and required order of steps;</text>
+  <text x="599" y="162" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">fixed vs. flexible sequence; time</text>
+  <text x="599" y="174" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">constraints; simultaneous demands.</text>
+  <text x="599" y="186" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C"> </text>
+  <line x1="599" y1="194" x2="779" y2="194" stroke="#E0EDF4" stroke-width="1"/>
+  <text x="599" y="208" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Cooking:</text>
+  <text x="599" y="220" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">8–20+ sequential steps; fixed steps</text>
+  <text x="599" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">(heat pan before oil); simultaneous</text>
+  <text x="599" y="244" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">demands; serving temperature pressure.</text>
+  <text x="599" y="258" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Handwriting:</text>
+  <text x="599" y="270" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">4-stage sequence: grip → stabilise</text>
+  <text x="599" y="282" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">→ compose → form letters (fixed).</text>
+  <circle cx="604" cy="103" r="8" fill="#FFFFFF" opacity="0.25"/>
+  <text x="604" y="107" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="900" fill="#FFFFFF">4</text>
+
+  <!-- Row 2 -->
+
+  <!-- Cat 5: Required Actions and Performance Skills -->
+  <rect x="12" y="326" width="183" height="232" rx="6" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="2"/>
+  <rect x="12" y="326" width="183" height="36" rx="6" fill="#2A9D8F"/>
+  <rect x="12" y="346" width="183" height="16" fill="#2A9D8F"/>
+  <text x="103" y="349" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">5. Required Actions &amp; Skills</text>
+  <text x="20" y="378" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#1D3557">Definition:</text>
+  <text x="20" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Observable motor, process, and</text>
+  <text x="20" y="404" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">social interaction skills required</text>
+  <text x="20" y="416" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">to complete the activity (OTPF</text>
+  <text x="20" y="428" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">skill taxonomy).</text>
+  <line x1="20" y1="436" x2="184" y2="436" stroke="#E0EDF4" stroke-width="1"/>
+  <text x="20" y="450" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Cooking:</text>
+  <text x="20" y="462" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Motor: grips, manipulates, coordinates;</text>
+  <text x="20" y="474" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Process: sequences, attends, heeds.</text>
+  <text x="20" y="490" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Handwriting:</text>
+  <text x="20" y="502" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Motor: stabilises, aligns, grips;</text>
+  <text x="20" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Process: paces, attends, handles.</text>
+  <circle cx="25" cy="345" r="8" fill="#FFFFFF" opacity="0.25"/>
+  <text x="25" y="349" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="900" fill="#FFFFFF">5</text>
+
+  <!-- Cat 6: Required Body Functions -->
+  <rect x="205" y="326" width="183" height="232" rx="6" fill="#FFFFFF" stroke="#457B9D" stroke-width="2"/>
+  <rect x="205" y="326" width="183" height="36" rx="6" fill="#457B9D"/>
+  <rect x="205" y="346" width="183" height="16" fill="#457B9D"/>
+  <text x="296" y="349" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">6. Required Body Functions</text>
+  <text x="213" y="378" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#1D3557">Definition:</text>
+  <text x="213" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">ICF body functions: mental (attention,</text>
+  <text x="213" y="404" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">memory, executive); sensory (visual,</text>
+  <text x="213" y="416" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">proprioception, tactile); neuromusculo-</text>
+  <text x="213" y="428" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">skeletal (joint mobility, muscle power).</text>
+  <line x1="213" y1="436" x2="378" y2="436" stroke="#E0EDF4" stroke-width="1"/>
+  <text x="213" y="450" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Cooking:</text>
+  <text x="213" y="462" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Divided attention; procedural memory;</text>
+  <text x="213" y="474" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">grip strength min. 10kg; visual acuity.</text>
+  <text x="213" y="490" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Handwriting:</text>
+  <text x="213" y="502" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Visual-motor integration; in-hand</text>
+  <text x="213" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">manipulation; sustained attention.</text>
+  <circle cx="218" cy="345" r="8" fill="#FFFFFF" opacity="0.25"/>
+  <text x="218" y="349" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="900" fill="#FFFFFF">6</text>
+
+  <!-- Cat 7: Required Body Structures -->
+  <rect x="398" y="326" width="183" height="232" rx="6" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="2"/>
+  <rect x="398" y="326" width="183" height="36" rx="6" fill="#2A9D8F"/>
+  <rect x="398" y="346" width="183" height="16" fill="#2A9D8F"/>
+  <text x="489" y="349" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">7. Required Body Structures</text>
+  <text x="406" y="378" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#1D3557">Definition:</text>
+  <text x="406" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Anatomical structures required:</text>
+  <text x="406" y="404" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">nervous system, sensory organs,</text>
+  <text x="406" y="416" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">musculoskeletal (joints, muscles,</text>
+  <text x="406" y="428" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">skin) and cardiovascular structures.</text>
+  <line x1="406" y1="436" x2="571" y2="436" stroke="#E0EDF4" stroke-width="1"/>
+  <text x="406" y="450" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Cooking:</text>
+  <text x="406" y="462" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Glenohumeral joint (90° flexion);</text>
+  <text x="406" y="474" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">bilateral UL; trunk; hip/knee extension.</text>
+  <text x="406" y="490" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Handwriting:</text>
+  <text x="406" y="502" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">MCP/PIP/DIP joints; CMC thumb;</text>
+  <text x="406" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">intrinsic hand muscles (lumbricales,</text>
+  <text x="406" y="526" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">interossei, thenar eminence).</text>
+  <circle cx="411" cy="345" r="8" fill="#FFFFFF" opacity="0.25"/>
+  <text x="411" y="349" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="900" fill="#FFFFFF">7</text>
+
+  <!-- Cat 8: Contextual Factors -->
+  <rect x="591" y="326" width="197" height="232" rx="6" fill="#FFFFFF" stroke="#457B9D" stroke-width="2"/>
+  <rect x="591" y="326" width="197" height="36" rx="6" fill="#457B9D"/>
+  <rect x="591" y="346" width="197" height="16" fill="#457B9D"/>
+  <text x="689" y="349" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">8. Relevance &amp; Meaning / Context</text>
+  <text x="599" y="378" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#1D3557">Definition:</text>
+  <text x="599" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Temporal (time, frequency, duration);</text>
+  <text x="599" y="404" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">cultural significance; personal history;</text>
+  <text x="599" y="416" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">virtual context; social context and</text>
+  <text x="599" y="428" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">subjective meaning to the client.</text>
+  <line x1="599" y1="436" x2="779" y2="436" stroke="#E0EDF4" stroke-width="1"/>
+  <text x="599" y="450" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Cooking:</text>
+  <text x="599" y="462" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Daily frequency; cultural food traditions;</text>
+  <text x="599" y="474" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">role identity (family caregiver role);</text>
+  <text x="599" y="486" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">20–60 min. duration typical.</text>
+  <text x="599" y="502" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#457B9D">Handwriting:</text>
+  <text x="599" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">Academic/exam context; communicative</text>
+  <text x="599" y="526" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#2C2C2C">purpose; cultural literacy significance.</text>
+  <circle cx="604" cy="345" r="8" fill="#FFFFFF" opacity="0.25"/>
+  <text x="604" y="349" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="900" fill="#FFFFFF">8</text>
+
+  <!-- Footer -->
+  <rect x="0" y="568" width="800" height="32" fill="#1D3557"/>
+  <text x="400" y="589" text-anchor="middle" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#A8C8D8">ot-assignment-help.com | OTPF 4th Edition (AOTA, 2020) | Activity Analysis Assignment Support for OT Students</text>
+</svg>

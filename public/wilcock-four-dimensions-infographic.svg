@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Wilcock's Doing-Being-Becoming-Belonging — four dimensions of occupation wheel diagram">
+  <title>Wilcock's Four Dimensions of Occupation: Doing, Being, Becoming, Belonging</title>
+  <desc>A circular quadrant wheel showing Wilcock's doing, being, becoming, and belonging framework with definitions for each dimension.</desc>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F4F9FA"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="66" fill="#1D3557"/>
+  <text x="400" y="27" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">Wilcock's Four Dimensions of Occupation</text>
+  <text x="400" y="51" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="400" fill="#A8C8D8" text-anchor="middle">Doing · Being · Becoming · Belonging (Wilcock, 1998; 2006)</text>
+
+  <!-- ============================================================ -->
+  <!-- WHEEL — centre at (400, 285), radius ~160                    -->
+  <!-- Four quadrant arcs using path commands                       -->
+  <!-- ============================================================ -->
+
+  <!-- Outer ring background (full circle) -->
+  <circle cx="400" cy="285" r="162" fill="#1D3557" stroke="#2A9D8F" stroke-width="2"/>
+
+  <!-- Segment 1: DOING — top-right (0° to 90° = right-top) -->
+  <!-- Path: M centre → arc top-right quadrant -->
+  <path d="M400,285 L562,285 A162,162 0 0,0 400,123 Z" fill="#2A9D8F" opacity="0.92"/>
+
+  <!-- Segment 2: BEING — top-left (90° to 180°) -->
+  <path d="M400,285 L400,123 A162,162 0 0,0 238,285 Z" fill="#457B9D" opacity="0.92"/>
+
+  <!-- Segment 3: BECOMING — bottom-left (180° to 270°) -->
+  <path d="M400,285 L238,285 A162,162 0 0,0 400,447 Z" fill="#1D3557" opacity="1"/>
+  <!-- Use lighter fill so text shows — override with a distinct shade -->
+  <path d="M400,285 L238,285 A162,162 0 0,0 400,447 Z" fill="#264E73" opacity="1"/>
+
+  <!-- Segment 4: BELONGING — bottom-right (270° to 360°) -->
+  <path d="M400,285 L400,447 A162,162 0 0,0 562,285 Z" fill="#2A9D8F" opacity="0.65"/>
+
+  <!-- Divider lines between segments -->
+  <line x1="400" y1="123" x2="400" y2="447" stroke="#F4F9FA" stroke-width="2.5"/>
+  <line x1="238" y1="285" x2="562" y2="285" stroke="#F4F9FA" stroke-width="2.5"/>
+
+  <!-- Centre circle (white hub) -->
+  <circle cx="400" cy="285" r="48" fill="#F4F9FA" stroke="#2A9D8F" stroke-width="2.5"/>
+  <text x="400" y="279" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1D3557" text-anchor="middle">OCCUPATION</text>
+  <text x="400" y="294" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#457B9D" text-anchor="middle">Wilcock</text>
+  <text x="400" y="307" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#457B9D" text-anchor="middle">1998 · 2006</text>
+
+  <!-- ============================================================ -->
+  <!-- SEGMENT LABELS IN-WHEEL                                      -->
+  <!-- ============================================================ -->
+
+  <!-- Segment 1: DOING (top-right) -->
+  <text x="468" y="210" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">DOING</text>
+  <text x="468" y="228" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E0F4F2" text-anchor="middle">Physical engagement</text>
+  <text x="468" y="242" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E0F4F2" text-anchor="middle">in occupation</text>
+
+  <!-- Segment 2: BEING (top-left) -->
+  <text x="332" y="210" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">BEING</text>
+  <text x="332" y="228" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#D4E8F4" text-anchor="middle">Reflective, existential</text>
+  <text x="332" y="242" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#D4E8F4" text-anchor="middle">identity expression</text>
+
+  <!-- Segment 3: BECOMING (bottom-left) -->
+  <text x="332" y="352" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">BECOMING</text>
+  <text x="332" y="370" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#C8DDE8" text-anchor="middle">Transformational growth</text>
+  <text x="332" y="384" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#C8DDE8" text-anchor="middle">through occupation</text>
+
+  <!-- Segment 4: BELONGING (bottom-right) -->
+  <text x="468" y="352" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">BELONGING</text>
+  <text x="468" y="370" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E0F4F2" text-anchor="middle">Social connection via</text>
+  <text x="468" y="384" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E0F4F2" text-anchor="middle">shared occupation</text>
+
+  <!-- ============================================================ -->
+  <!-- FOUR DEFINITION CARDS — outside the wheel                    -->
+  <!-- ============================================================ -->
+
+  <!-- Card 1: DOING (right of wheel) -->
+  <rect x="578" y="74" width="208" height="108" rx="6" ry="6" fill="#1D3557"/>
+  <rect x="578" y="74" width="5" height="108" rx="3" ry="3" fill="#2A9D8F"/>
+  <text x="592" y="94" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#2A9D8F">DOING</text>
+  <text x="592" y="110" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">The physical and observable</text>
+  <text x="592" y="124" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">engagement in occupations —</text>
+  <text x="592" y="138" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">the most visible dimension of</text>
+  <text x="592" y="152" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">occupational participation.</text>
+  <text x="592" y="172" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-style="italic" fill="#A8C8D8">Wilcock (1998) An Occupational</text>
+  <text x="592" y="184" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-style="italic" fill="#A8C8D8"> </text>
+
+  <!-- Card 2: BEING (right of wheel, below card 1) -->
+  <rect x="578" y="196" width="208" height="108" rx="6" ry="6" fill="#1D3557"/>
+  <rect x="578" y="196" width="5" height="108" rx="3" ry="3" fill="#457B9D"/>
+  <text x="592" y="216" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#457B9D">BEING</text>
+  <text x="592" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">The reflective, existential</text>
+  <text x="592" y="246" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">dimension — who one is in</text>
+  <text x="592" y="260" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">the absence of activity;</text>
+  <text x="592" y="274" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">occupation as identity-expression.</text>
+
+  <!-- Card 3: BECOMING (right of wheel, below card 2) -->
+  <rect x="578" y="318" width="208" height="108" rx="6" ry="6" fill="#1D3557"/>
+  <rect x="578" y="318" width="5" height="108" rx="3" ry="3" fill="#E9C46A"/>
+  <text x="592" y="338" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#E9C46A">BECOMING</text>
+  <text x="592" y="354" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">The transformational dimension —</text>
+  <text x="592" y="368" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">how occupation shapes who</text>
+  <text x="592" y="382" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">one is becoming over time;</text>
+  <text x="592" y="396" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">occupation as growth vehicle.</text>
+
+  <!-- Card 4: BELONGING (left of wheel) -->
+  <rect x="14" y="318" width="208" height="108" rx="6" ry="6" fill="#1D3557"/>
+  <rect x="14" y="318" width="5" height="108" rx="3" ry="3" fill="#2A9D8F"/>
+  <text x="28" y="338" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#2A9D8F">BELONGING</text>
+  <text x="28" y="354" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">The social and relational</text>
+  <text x="28" y="368" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">dimension — connectedness</text>
+  <text x="28" y="382" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">and shared identity through</text>
+  <text x="28" y="396" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#E8F1F5">occupational participation.</text>
+
+  <!-- Connector line: right-side card group to wheel -->
+  <line x1="562" y1="210" x2="578" y2="128" stroke="#2A9D8F" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <line x1="562" y1="285" x2="578" y2="250" stroke="#457B9D" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <line x1="562" y1="360" x2="578" y2="370" stroke="#E9C46A" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <line x1="238" y1="360" x2="222" y2="372" stroke="#2A9D8F" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+
+  <!-- Footer -->
+  <text x="400" y="490" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#457B9D" text-anchor="middle">Source: Wilcock, A.A. (1998). An Occupational Perspective of Health. Slack Incorporated. | Wilcock &amp; Townsend (2000). Occupational justice.</text>
+</svg>

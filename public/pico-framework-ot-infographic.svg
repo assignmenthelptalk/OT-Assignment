@@ -1,0 +1,89 @@
+<svg viewBox="0 0 800 520" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pico-title pico-desc" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="pico-title">PICO Framework for Occupational Therapy Research Questions</title>
+  <desc id="pico-desc">A four-quadrant diagram showing the PICO and PICOS framework components: Population, Intervention, Comparison, and Outcome, each with an occupational therapy example based on constraint-induced movement therapy for stroke rehabilitation. PICOS adds Study Type as a fifth element.</desc>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F9FA" rx="8"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="64" fill="#1D3557" rx="8"/>
+  <rect x="0" y="50" width="800" height="14" fill="#1D3557"/>
+  <text x="400" y="22" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">PICO / PICOS Framework</text>
+  <text x="400" y="46" text-anchor="middle" font-size="12" fill="#A8C8D8" letter-spacing="0.3">Constructing Focused Research Questions for Occupational Therapy Literature Reviews</text>
+
+  <!-- ===== QUADRANT 1 — P (top-left) ===== -->
+  <rect x="24" y="80" width="364" height="190" rx="8" fill="#FFFFFF" stroke="#1D3557" stroke-width="2"/>
+  <!-- Letter badge -->
+  <circle cx="62" cy="116" r="26" fill="#1D3557"/>
+  <text x="62" y="123" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF">P</text>
+  <!-- Label -->
+  <text x="98" y="107" font-size="15" font-weight="700" fill="#1D3557">Population / Problem</text>
+  <text x="98" y="126" font-size="11" fill="#457B9D">Who are the study participants?</text>
+  <!-- Definition -->
+  <text x="34" y="158" font-size="11" fill="#2C2C2C">Defines the target group by diagnosis, age,</text>
+  <text x="34" y="173" font-size="11" fill="#2C2C2C">functional status, and care setting. Must be</text>
+  <text x="34" y="188" font-size="11" fill="#2C2C2C">precise — not "stroke patients" but a fully</text>
+  <text x="34" y="203" font-size="11" fill="#2C2C2C">specified clinical population.</text>
+  <!-- OT Example box -->
+  <rect x="34" y="216" width="344" height="44" rx="5" fill="#EBF5F4" stroke="#2A9D8F" stroke-width="1.2"/>
+  <text x="44" y="232" font-size="10" font-weight="700" fill="#2A9D8F">OT EXAMPLE</text>
+  <text x="44" y="248" font-size="10" fill="#1D3557">Adults aged 18–80 with first-occurrence ischaemic stroke</text>
+  <text x="44" y="260" font-size="10" fill="#1D3557">with upper limb hemiplegia in acute inpatient phase (0–6 months)</text>
+
+  <!-- ===== QUADRANT 2 — I (top-right) ===== -->
+  <rect x="412" y="80" width="364" height="190" rx="8" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="450" cy="116" r="26" fill="#2A9D8F"/>
+  <text x="450" y="123" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF">I</text>
+  <text x="486" y="107" font-size="15" font-weight="700" fill="#1D3557">Intervention</text>
+  <text x="486" y="126" font-size="11" fill="#457B9D">What OT intervention is being studied?</text>
+  <text x="422" y="158" font-size="11" fill="#2C2C2C">The specific OT intervention with named delivery</text>
+  <text x="422" y="173" font-size="11" fill="#2C2C2C">parameters: frequency, duration, intensity, and</text>
+  <text x="422" y="188" font-size="11" fill="#2C2C2C">the professional delivering it. Vague labels such</text>
+  <text x="422" y="203" font-size="11" fill="#2C2C2C">as "OT intervention" are insufficient.</text>
+  <rect x="422" y="216" width="344" height="44" rx="5" fill="#EBF5F4" stroke="#2A9D8F" stroke-width="1.2"/>
+  <text x="432" y="232" font-size="10" font-weight="700" fill="#2A9D8F">OT EXAMPLE</text>
+  <text x="432" y="248" font-size="10" fill="#1D3557">Constraint-induced movement therapy (CIMT), massed practice,</text>
+  <text x="432" y="260" font-size="10" fill="#1D3557">3–6 hrs daily for 2 consecutive weeks, OT-delivered</text>
+
+  <!-- ===== QUADRANT 3 — C (bottom-left) ===== -->
+  <rect x="24" y="284" width="364" height="190" rx="8" fill="#FFFFFF" stroke="#457B9D" stroke-width="2"/>
+  <circle cx="62" cy="320" r="26" fill="#457B9D"/>
+  <text x="62" y="327" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF">C</text>
+  <text x="98" y="311" font-size="15" font-weight="700" fill="#1D3557">Comparison</text>
+  <text x="98" y="330" font-size="11" fill="#457B9D">What is the control or comparator condition?</text>
+  <text x="34" y="362" font-size="11" fill="#2C2C2C">The control condition against which the</text>
+  <text x="34" y="377" font-size="11" fill="#2C2C2C">intervention is evaluated — either an active</text>
+  <text x="34" y="392" font-size="11" fill="#2C2C2C">comparator (usual care) or no treatment. Often</text>
+  <text x="34" y="407" font-size="11" fill="#2C2C2C">omitted in narrative reviews; must be acknowledged.</text>
+  <rect x="34" y="420" width="344" height="44" rx="5" fill="#EBF5F4" stroke="#2A9D8F" stroke-width="1.2"/>
+  <text x="44" y="436" font-size="10" font-weight="700" fill="#2A9D8F">OT EXAMPLE</text>
+  <text x="44" y="452" font-size="10" fill="#1D3557">Conventional upper limb rehabilitation or splinting</text>
+  <text x="44" y="464" font-size="10" fill="#1D3557">alone (no CIMT protocol)</text>
+
+  <!-- ===== QUADRANT 4 — O (bottom-right) ===== -->
+  <rect x="412" y="284" width="364" height="190" rx="8" fill="#FFFFFF" stroke="#1D3557" stroke-width="2"/>
+  <circle cx="450" cy="320" r="26" fill="#1D3557"/>
+  <text x="450" y="327" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF">O</text>
+  <text x="486" y="311" font-size="15" font-weight="700" fill="#1D3557">Outcome</text>
+  <text x="486" y="330" font-size="11" fill="#457B9D">What measurable result is assessed?</text>
+  <text x="422" y="362" font-size="11" fill="#2C2C2C">The specific, measurable outcome with the</text>
+  <text x="422" y="377" font-size="11" fill="#2C2C2C">named standardised assessment tool. "Improved</text>
+  <text x="422" y="392" font-size="11" fill="#2C2C2C">function" is not an outcome — ARAT or FMA-UE</text>
+  <text x="422" y="407" font-size="11" fill="#2C2C2C">score with MCID threshold is an outcome.</text>
+  <rect x="422" y="420" width="344" height="44" rx="5" fill="#EBF5F4" stroke="#2A9D8F" stroke-width="1.2"/>
+  <text x="432" y="436" font-size="10" font-weight="700" fill="#2A9D8F">OT EXAMPLE</text>
+  <text x="432" y="452" font-size="10" fill="#1D3557">Upper limb function measured by ARAT or FMA-UE;</text>
+  <text x="432" y="464" font-size="10" fill="#1D3557">ARAT MCID = 5.7 points (van der Lee et al., 1999)</text>
+
+  <!-- Centre connector cross -->
+  <line x1="388" y1="80" x2="388" y2="474" stroke="#D0E4EE" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="24" y1="277" x2="776" y2="277" stroke="#D0E4EE" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- ===== PICOS Strip — S (Study Type) ===== -->
+  <rect x="24" y="482" width="572" height="26" rx="6" fill="#1D3557"/>
+  <text x="34" y="500" font-size="11" font-weight="700" fill="#FFFFFF">S — Study Type (PICOS extension):</text>
+  <text x="206" y="500" font-size="11" fill="#A8C8D8">RCT for effectiveness questions | Qualitative for patient experience | Cohort for prevalence</text>
+
+  <!-- Footer domain -->
+  <text x="776" y="500" text-anchor="end" font-size="10" fill="#457B9D">ot-assignment-help.com</text>
+</svg>

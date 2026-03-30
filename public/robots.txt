@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://otassignmenthelp.co.uk/sitemap-index.xml

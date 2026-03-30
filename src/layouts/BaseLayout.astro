@@ -1,0 +1,67 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  canonicalUrl?: string;
+  ogType?: string;
+  ogImage?: string;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  metaTitle,
+  metaDescription,
+  canonicalUrl,
+  ogType = 'website',
+  ogImage = '/og-default.png',
+  noindex = false,
+} = Astro.props;
+
+const SITE_URL = 'https://otassignmenthelp.co.uk';
+const resolvedTitle = metaTitle ?? title;
+const resolvedCanonical = canonicalUrl
+  ? `${SITE_URL}${canonicalUrl}`
+  : `${SITE_URL}${Astro.url.pathname}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{resolvedTitle}</title>
+    {metaDescription && <meta name="description" content={metaDescription} />}
+    <link rel="canonical" href={resolvedCanonical} />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+
+    <meta property="og:title" content={resolvedTitle} />
+    {metaDescription && <meta property="og:description" content={metaDescription} />}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={resolvedCanonical} />
+    <meta property="og:image" content={`${SITE_URL}${ogImage}`} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+    <script>
+      // Scroll-based header shadow
+      const header = document.querySelector('header[data-sticky]');
+      if (header) {
+        const onScroll = () => {
+          header.classList.toggle('shadow-md', window.scrollY > 10);
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+      }
+    </script>
+  </body>
+</html>

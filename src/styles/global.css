@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/inter/latin-600.css";
+@import "@fontsource/inter/latin-700.css";
+
+@theme {
+  /* Primary — deep navy */
+  --color-primary-900: #0C1F3F;
+  --color-primary-800: #1E3A5F;
+  --color-primary-700: #2D5282;
+  --color-primary-600: #3B6CB0;
+  --color-primary-100: #EBF2FF;
+  --color-primary-50: #F5F9FF;
+
+  /* Secondary — teal-green */
+  --color-secondary-800: #0D5C4F;
+  --color-secondary-600: #16A085;
+  --color-secondary-400: #2DD4BF;
+  --color-secondary-100: #CCFBF1;
+  --color-secondary-50: #F0FDF9;
+
+  /* Accent — amber */
+  --color-accent-600: #D97706;
+  --color-accent-500: #F59E0B;
+  --color-accent-400: #FBBF24;
+  --color-accent-100: #FEF3C7;
+  --color-accent-50: #FFFBEB;
+
+  /* Font family */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  /* Semantic colour aliases */
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94A3B8;
+  --color-bg-page: #FFFFFF;
+  --color-bg-surface: #F8FAFC;
+  --color-bg-subtle: #F0F7F4;
+  --color-border: #E2E8F0;
+  --color-border-strong: #CBD5E1;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
+}
+
+/* Accordion animation */
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-text-primary);
+    background: var(--color-bg-page);
+    scroll-behavior: smooth;
+  }
+
+  *:focus-visible {
+    outline: 2px solid theme(colors.primary.600);
+    outline-offset: 2px;
+  }
+}

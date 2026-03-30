@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"exit: $?\")",
+      "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\jobmu\\\\myproject\\\\OTAssignmenthelp'' -Force | Select-Object Name\")"
+    ]
+  }
+}
