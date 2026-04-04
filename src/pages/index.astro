@@ -1,6 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ContactForm from '../components/ContactForm.astro';
+import TrustBadgeRow from '../components/TrustBadgeRow.astro';
+import LevelSelectorGrid from '../components/LevelSelectorGrid.astro';
+import ProcessTimeline from '../components/ProcessTimeline.astro';
 ---
 
 <BaseLayout
@@ -36,6 +39,13 @@ import ContactForm from '../components/ContactForm.astro';
             Read the full guide →
           </a>
         </div>
+      </div>
+    </section>
+
+    <!-- Trust badges -->
+    <section class="px-4 pt-6 pb-2 bg-[var(--color-bg-surface)]">
+      <div class="max-w-7xl mx-auto">
+        <TrustBadgeRow />
       </div>
     </section>
 
@@ -154,6 +164,15 @@ import ContactForm from '../components/ContactForm.astro';
       </div>
     </section>
 
+    <!-- Level selector -->
+    <section class="py-10 px-4 bg-[var(--color-bg-surface)]">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-2xl font-bold text-primary-800 text-center mb-2">CMI Qualification Levels</h2>
+        <p class="text-center text-[var(--color-text-secondary)] mb-6 text-sm">Select your level for unit-specific assignment support</p>
+        <LevelSelectorGrid />
+      </div>
+    </section>
+
     <!-- Trust section -->
     <section class="py-16 px-4">
       <div class="max-w-7xl mx-auto">
@@ -198,6 +217,17 @@ import ContactForm from '../components/ContactForm.astro';
           subText="Tell us your assignment type, level and deadline. Response within 24 hours."
           formId="homepage-quote"
         />
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16 px-4 bg-[var(--color-bg-surface)]">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-primary-800 text-center mb-2">How It Works</h2>
+        <p class="text-center text-[var(--color-text-secondary)] mb-8 max-w-xl mx-auto">
+          From your first WhatsApp message to a submission-ready document — five straightforward steps.
+        </p>
+        <ProcessTimeline />
       </div>
     </section>
 
