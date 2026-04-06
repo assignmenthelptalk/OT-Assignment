@@ -2,8 +2,8 @@
 // ProcessTimeline.astro
 // Usage: <ProcessTimeline variant="homepage" /> or <ProcessTimeline variant="writing-service" />
 // Place: above Step 1 in the "How It Works" section
-// Alt text (homepage): "CMI assignment help process — 5 steps from WhatsApp brief to submission-ready document"
-// Alt text (writing): "CMI assignment writing service order process — 5 steps from WhatsApp brief to final Word document"
+// Alt text (homepage): "OT assignment help process — 5 steps from WhatsApp brief to submission-ready document"
+// Alt text (writing): "OT assignment writing service order process — 5 steps from WhatsApp brief to final Word document"
 
 interface Props {
   variant?: "homepage" | "writing-service";
@@ -39,7 +39,7 @@ const homepageSteps = [
   {
     number: 5,
     title: "Submission-ready document",
-    desc: "Formatted to CMI standards, Harvard referenced",
+    desc: "HCPC-aligned, Harvard referenced, formatted to your programme's requirements",
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
   },
 ];
@@ -72,7 +72,7 @@ const writingSteps = [
   {
     number: 5,
     title: "Final Word document",
-    desc: "CMI formatted, Harvard referenced, ready to submit",
+    desc: "HCPC-aligned, Harvard referenced, ready to submit",
     icon: homepageSteps[4].icon,
   },
 ];
@@ -84,8 +84,8 @@ const steps = variant === "writing-service" ? writingSteps : homepageSteps;
   class="process-timeline"
   role="region"
   aria-label={variant === "writing-service"
-    ? "CMI assignment writing service order process — 5 steps from WhatsApp brief to final Word document"
-    : "CMI assignment help process — 5 steps from WhatsApp brief to submission-ready document"}
+    ? "OT assignment writing service order process — 5 steps from WhatsApp brief to final Word document"
+    : "OT assignment help process — 5 steps from WhatsApp brief to submission-ready document"}
 >
   {steps.map((step, i) => (
     <div class="process-step">
