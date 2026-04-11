@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 
-const site = 'https://www.occupationtherapyassignment.help';
+const site = 'https://occupationtherapyassignment.help';
 
 const pages = [
   '/',

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Sitemap: https://www.occupationtherapyassignment.help/ot-sitemap.xml
+Sitemap: https://occupationtherapyassignment.help/ot-sitemap.xml
