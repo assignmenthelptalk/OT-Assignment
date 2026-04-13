@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://occupationtherapyassignment.help',
+  site: 'https://www.occupationtherapyassignment.help',
   integrations: [
     sitemap({
       filter: (page) =>
