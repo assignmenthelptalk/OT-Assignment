@@ -23,7 +23,7 @@ const {
   noindex = false,
 } = Astro.props;
 
-const SITE_URL = 'https://occupationtherapyassignment.help';
+const SITE_URL = 'https://www.occupationtherapyassignment.help';
 const resolvedTitle = metaTitle ?? title;
 const resolvedCanonical = canonicalUrl
   ? `${SITE_URL}${canonicalUrl}`
@@ -38,6 +38,11 @@ const resolvedCanonical = canonicalUrl
     <meta
       name="google-site-verification"
       content="9JPQwMWvYPChfs6gkRBeBZYvgQdJFmlU0q375FXXYeM"
+    />
+
+    <meta
+      name="msvalidate.01"
+      content="9DE95409DD2CE4946B20997C9FF38937"
     />
 
     <title>{resolvedTitle}</title>
