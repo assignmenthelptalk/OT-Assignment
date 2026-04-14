@@ -19,6 +19,7 @@
     "astro": "^6.1.1",
     "astro-seo": "^1.1.0",
     "lucide-astro": "^0.556.0",
+    "playwright": "^1.59.1",
     "tailwindcss": "^4.2.2"
   }
 }

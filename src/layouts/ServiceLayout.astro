@@ -18,6 +18,7 @@ interface Props {
   noindex?: boolean;
   breadcrumbs: Crumb[];
   schemaType?: 'Service' | 'Article' | 'FAQPage';
+  headerImage?: string;
 }
 
 const {
@@ -27,6 +28,7 @@ const {
   metaTitle,
   metaDescription,
   canonicalUrl,
+  headerImage,
   ...rest
 } = Astro.props;
 
@@ -38,6 +40,7 @@ const schemaJson = {
   name: title,
   url: `${SITE_URL}${canonicalUrl}`,
   ...(metaDescription ? { description: metaDescription } : {}),
+  ...(headerImage ? { image: `${SITE_URL}${headerImage}` } : {}),
 };
 ---
 
@@ -46,6 +49,7 @@ const schemaJson = {
   metaTitle={metaTitle}
   metaDescription={metaDescription}
   canonicalUrl={canonicalUrl}
+  ogImage={headerImage || rest.ogImage}
   {...rest}
 >
   <Fragment slot="head">
@@ -58,6 +62,20 @@ const schemaJson = {
       <div class="mt-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-12">
         <article class="prose-article min-w-0">
           <h1 class="text-3xl font-bold text-primary-800 mb-4">{title}</h1>
+          {headerImage && (
+            <div class="mb-8 rounded-2xl overflow-hidden shadow-lg border border-[var(--color-border)]">
+              <img
+                src={headerImage}
+                alt={title}
+                width="1920"
+                height="960"
+                class="w-full h-auto object-cover aspect-[2/1] block"
+                loading="eager"
+                decoding="async"
+                itemprop="image"
+              />
+            </div>
+          )}
           <slot />
         </article>
         <aside class="hidden lg:block">
