@@ -110,7 +110,7 @@ const resolvedCanonical = canonicalUrl
       .whatsapp-float {
         position: fixed;
         bottom: 90px;
-        right: 24px;
+        left: 24px;
         z-index: 9999;
         background-color: #25d366;
         border-radius: 50%;
@@ -129,7 +129,7 @@ const resolvedCanonical = canonicalUrl
       }
       .whatsapp-tooltip {
         position: absolute;
-        right: 64px;
+        left: 64px;
         background: #1a1a1a;
         color: #fff;
         font-size: 13px;
@@ -144,12 +144,12 @@ const resolvedCanonical = canonicalUrl
       .whatsapp-tooltip::after {
         content: '';
         position: absolute;
-        right: -6px;
+        left: -6px;
         top: 50%;
         transform: translateY(-50%);
-        border-width: 6px 0 6px 6px;
+        border-width: 6px 6px 6px 0;
         border-style: solid;
-        border-color: transparent transparent transparent #1a1a1a;
+        border-color: transparent #1a1a1a transparent transparent;
       }
       .whatsapp-float:hover .whatsapp-tooltip {
         opacity: 1;
