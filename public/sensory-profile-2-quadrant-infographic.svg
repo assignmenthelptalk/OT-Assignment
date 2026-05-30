@@ -1,0 +1,129 @@
+<svg viewBox="0 0 820 680" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sp2-title sp2-desc" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="sp2-title">Sensory Profile 2 Four-Quadrant Model for Autism OT Assignments</title>
+  <desc id="sp2-desc">A four-quadrant diagram showing the Sensory Profile 2 model defined by two axes: neurological threshold (low to high) and self-regulation style (passive to active), with quadrant names, descriptors, and OT intervention directions for each profile.</desc>
+
+  <!-- Background -->
+  <rect width="820" height="680" fill="#F4F9FA" rx="8"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="820" height="62" fill="#1D3557" rx="8"/>
+  <rect x="0" y="54" width="820" height="8" fill="#1D3557"/>
+  <text x="410" y="24" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" letter-spacing="0.4">SENSORY PROFILE 2 — FOUR QUADRANT MODEL</text>
+  <text x="410" y="46" text-anchor="middle" fill="#2A9D8F" font-size="11" font-weight="500">Neurological Threshold × Self-Regulation Style — For Autism OT Assignments</text>
+
+  <!-- Y-axis label: SELF-REGULATION STYLE -->
+  <text x="18" y="390" text-anchor="middle" fill="#1D3557" font-size="11" font-weight="700" transform="rotate(-90,18,390)" letter-spacing="1">SELF-REGULATION STYLE</text>
+  <!-- Active label top -->
+  <text x="46" y="110" text-anchor="middle" fill="#457B9D" font-size="10" font-weight="600">ACTIVE</text>
+  <line x1="46" y1="115" x2="46" y2="180" stroke="#457B9D" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <!-- Passive label bottom -->
+  <text x="46" y="656" text-anchor="middle" fill="#457B9D" font-size="10" font-weight="600">PASSIVE</text>
+  <line x1="46" y1="500" x2="46" y2="640" stroke="#457B9D" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- X-axis label: NEUROLOGICAL THRESHOLD -->
+  <text x="450" y="668" text-anchor="middle" fill="#1D3557" font-size="11" font-weight="700" letter-spacing="1">NEUROLOGICAL THRESHOLD</text>
+  <!-- Low label left -->
+  <text x="115" y="658" text-anchor="middle" fill="#457B9D" font-size="10" font-weight="600">LOW</text>
+  <!-- High label right -->
+  <text x="740" y="658" text-anchor="middle" fill="#457B9D" font-size="10" font-weight="600">HIGH</text>
+
+  <!-- Centre divider lines -->
+  <line x1="450" y1="80" x2="450" y2="645" stroke="#1D3557" stroke-width="2.5"/>
+  <line x1="65" y1="363" x2="820" y2="363" stroke="#1D3557" stroke-width="2.5"/>
+
+  <!-- ===== QUADRANT 1: TOP-LEFT — AVOIDER (Low threshold + Active) ===== -->
+  <rect x="66" y="81" width="382" height="280" fill="#E63946" rx="6" opacity="0.12"/>
+  <rect x="66" y="81" width="382" height="280" fill="none" stroke="#E63946" stroke-width="2" rx="6"/>
+  <!-- Quadrant badge -->
+  <rect x="86" y="96" width="90" height="24" fill="#E63946" rx="4"/>
+  <text x="131" y="113" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">AVOIDER</text>
+  <!-- Axis descriptor -->
+  <text x="86" y="140" fill="#E63946" font-size="10" font-weight="600">Low threshold + Active self-regulation</text>
+  <!-- Divider -->
+  <line x1="86" y1="148" x2="428" y2="148" stroke="#E63946" stroke-width="1" opacity="0.4"/>
+  <!-- Behaviour description -->
+  <text x="86" y="166" fill="#1D3557" font-size="10.5">Easily over-stimulated; actively manages</text>
+  <text x="86" y="181" fill="#1D3557" font-size="10.5">sensory input through avoidance behaviours,</text>
+  <text x="86" y="196" fill="#1D3557" font-size="10.5">routines, and rule-making. May insist on</text>
+  <text x="86" y="211" fill="#1D3557" font-size="10.5">sameness, refuse new foods or textures, avoid</text>
+  <text x="86" y="226" fill="#1D3557" font-size="10.5">crowded or loud environments.</text>
+  <!-- OT intervention -->
+  <rect x="86" y="238" width="342" height="14" fill="#E63946" rx="3" opacity="0.15"/>
+  <text x="92" y="249" fill="#E63946" font-size="10" font-weight="700">OT: Environmental modification; calming sensory input;</text>
+  <text x="92" y="264" fill="#E63946" font-size="10" font-weight="700">respect regulatory strategies; gradual sensory introduction.</text>
+  <!-- SP2 score note -->
+  <text x="86" y="284" fill="#1D3557" font-size="9.5" font-style="italic">SP2: More Than Others / Much More Than Others on Avoiding subscale</text>
+  <text x="86" y="298" fill="#1D3557" font-size="9.5" font-style="italic">Score: 1–2 SD above norm (More) or &gt;2 SD above norm (Much More)</text>
+  <text x="86" y="312" fill="#1D3557" font-size="9.5" font-style="italic">Common in: tactile, auditory, gustatory hypersensitivity</text>
+  <text x="86" y="344" fill="#1D3557" font-size="9.5" font-style="italic">NICE NG142 — respect regulatory strategies; avoid forced exposure.</text>
+
+  <!-- ===== QUADRANT 2: TOP-RIGHT — SEEKER (High threshold + Active) ===== -->
+  <rect x="452" y="81" width="367" height="280" fill="#2A9D8F" rx="6" opacity="0.12"/>
+  <rect x="452" y="81" width="367" height="280" fill="none" stroke="#2A9D8F" stroke-width="2" rx="6"/>
+  <rect x="472" y="96" width="82" height="24" fill="#2A9D8F" rx="4"/>
+  <text x="513" y="113" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">SEEKER</text>
+  <text x="472" y="140" fill="#2A9D8F" font-size="10" font-weight="600">High threshold + Active self-regulation</text>
+  <line x1="472" y1="148" x2="799" y2="148" stroke="#2A9D8F" stroke-width="1" opacity="0.4"/>
+  <text x="472" y="166" fill="#1D3557" font-size="10.5">Needs more sensory input than others to register</text>
+  <text x="472" y="181" fill="#1D3557" font-size="10.5">a response; actively seeks additional stimulation.</text>
+  <text x="472" y="196" fill="#1D3557" font-size="10.5">Appears energetic, touches everything, makes</text>
+  <text x="472" y="211" fill="#1D3557" font-size="10.5">noise, seeks movement and proprioceptive input.</text>
+  <text x="472" y="226" fill="#1D3557" font-size="10.5">May be misread as inattentive or oppositional.</text>
+  <rect x="472" y="238" width="327" height="14" fill="#2A9D8F" rx="3" opacity="0.15"/>
+  <text x="478" y="249" fill="#2A9D8F" font-size="10" font-weight="700">OT: Structured sensory opportunities (heavy work,</text>
+  <text x="478" y="264" fill="#2A9D8F" font-size="10" font-weight="700">proprioceptive input); sensory diet; movement breaks.</text>
+  <text x="472" y="284" fill="#1D3557" font-size="9.5" font-style="italic">SP2: More Than Others / Much More Than Others on Seeking subscale</text>
+  <text x="472" y="298" fill="#1D3557" font-size="9.5" font-style="italic">Score: 1–2 SD above norm (More) or &gt;2 SD above norm (Much More)</text>
+  <text x="472" y="312" fill="#1D3557" font-size="9.5" font-style="italic">Common in: vestibular, proprioceptive hyposensitivity</text>
+  <text x="472" y="344" fill="#1D3557" font-size="9.5" font-style="italic">Intervention: Sensory diet with alerting and organising activities.</text>
+
+  <!-- ===== QUADRANT 3: BOTTOM-LEFT — SENSOR (Low threshold + Passive) ===== -->
+  <rect x="66" y="365" width="382" height="268" fill="#E9C46A" rx="6" opacity="0.18"/>
+  <rect x="66" y="365" width="382" height="268" fill="none" stroke="#E9C46A" stroke-width="2" rx="6"/>
+  <rect x="86" y="380" width="78" height="24" fill="#E9C46A" rx="4"/>
+  <text x="125" y="397" text-anchor="middle" fill="#1D3557" font-size="11" font-weight="700">SENSOR</text>
+  <text x="86" y="422" fill="#C9A227" font-size="10" font-weight="600">Low threshold + Passive self-regulation</text>
+  <line x1="86" y1="430" x2="428" y2="430" stroke="#C9A227" stroke-width="1" opacity="0.4"/>
+  <text x="86" y="448" fill="#1D3557" font-size="10.5">Easily over-stimulated but responds passively;</text>
+  <text x="86" y="463" fill="#1D3557" font-size="10.5">appears distractible, emotionally reactive to</text>
+  <text x="86" y="478" fill="#1D3557" font-size="10.5">sensory events. Does not actively avoid but</text>
+  <text x="86" y="493" fill="#1D3557" font-size="10.5">is significantly affected by background stimuli</text>
+  <text x="86" y="508" fill="#1D3557" font-size="10.5">others ignore.</text>
+  <rect x="86" y="520" width="342" height="14" fill="#C9A227" rx="3" opacity="0.2"/>
+  <text x="92" y="531" fill="#9A7B00" font-size="10" font-weight="700">OT: Reduce sensory load; environmental modification;</text>
+  <text x="92" y="546" fill="#9A7B00" font-size="10" font-weight="700">calming input; classroom sensory diet.</text>
+  <text x="86" y="566" fill="#1D3557" font-size="9.5" font-style="italic">SP2: More Than Others / Much More Than Others on Sensitivity subscale</text>
+  <text x="86" y="580" fill="#1D3557" font-size="9.5" font-style="italic">Common in: auditory, visual, tactile sensitivity</text>
+  <text x="86" y="594" fill="#1D3557" font-size="9.5" font-style="italic">Intervention: Lower sensory demands; predictable environments.</text>
+  <text x="86" y="614" fill="#1D3557" font-size="9.5" font-style="italic">NICE NG142 — sensory processing interventions when indicated.</text>
+
+  <!-- ===== QUADRANT 4: BOTTOM-RIGHT — BYSTANDER (High threshold + Passive) ===== -->
+  <rect x="452" y="365" width="367" height="268" fill="#457B9D" rx="6" opacity="0.12"/>
+  <rect x="452" y="365" width="367" height="268" fill="none" stroke="#457B9D" stroke-width="2" rx="6"/>
+  <rect x="472" y="380" width="96" height="24" fill="#457B9D" rx="4"/>
+  <text x="520" y="397" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">BYSTANDER</text>
+  <text x="472" y="422" fill="#457B9D" font-size="10" font-weight="600">High threshold + Passive self-regulation</text>
+  <line x1="472" y1="430" x2="799" y2="430" stroke="#457B9D" stroke-width="1" opacity="0.4"/>
+  <text x="472" y="448" fill="#1D3557" font-size="10.5">Misses sensory input that others notice; appears</text>
+  <text x="472" y="463" fill="#1D3557" font-size="10.5">disengaged, inattentive, or slow to respond.</text>
+  <text x="472" y="478" fill="#1D3557" font-size="10.5">May not register pain, temperature, or movement</text>
+  <text x="472" y="493" fill="#1D3557" font-size="10.5">feedback; low arousal; appears withdrawn.</text>
+  <rect x="472" y="520" width="327" height="14" fill="#457B9D" rx="3" opacity="0.15"/>
+  <text x="478" y="531" fill="#457B9D" font-size="10" font-weight="700">OT: Increase sensory salience; alerting input;</text>
+  <text x="478" y="546" fill="#457B9D" font-size="10" font-weight="700">sensory alerting programme; heavy work before tasks.</text>
+  <text x="472" y="566" fill="#1D3557" font-size="9.5" font-style="italic">SP2: Less Than Others / Much Less Than Others on Registration subscale</text>
+  <text x="472" y="580" fill="#1D3557" font-size="9.5" font-style="italic">Common in: proprioceptive, interoceptive hyposensitivity</text>
+  <text x="472" y="594" fill="#1D3557" font-size="9.5" font-style="italic">Intervention: Alerting activities before learning tasks.</text>
+  <text x="472" y="614" fill="#1D3557" font-size="9.5" font-style="italic">Safety consideration: may not register injury or illness cues.</text>
+
+  <!-- Axis arrows -->
+  <!-- Vertical arrow (bottom to top = Passive to Active) -->
+  <line x1="46" y1="640" x2="46" y2="90" stroke="#1D3557" stroke-width="2"/>
+  <polygon points="40,92 52,92 46,80" fill="#1D3557"/>
+  <!-- Horizontal arrow (left to right = Low to High) -->
+  <line x1="65" y1="645" x2="808" y2="645" stroke="#1D3557" stroke-width="2"/>
+  <polygon points="806,639 806,651 818,645" fill="#1D3557"/>
+
+  <!-- Footer -->
+  <text x="410" y="674" text-anchor="middle" fill="#457B9D" font-size="9" font-style="italic">occupationtherapyassignment.help — Sensory Profile 2 (Dunn, 2014); NICE NG142 alignment</text>
+</svg>
