@@ -17,14 +17,40 @@ const {
 
 const fieldClass = 'w-full px-3 py-2.5 border border-[var(--color-border)] rounded-lg bg-white text-[var(--color-text-primary)] focus:outline-none focus:ring-2 focus:ring-primary-600 text-sm';
 const labelClass = 'block text-sm font-semibold text-primary-800 mb-1';
+
+// Web3Forms delivers submissions straight to assignmenthelptalk@gmail.com without a
+// backend. Get a free access key at https://web3forms.com and set it as
+// PUBLIC_WEB3FORMS_ACCESS_KEY in the deployment environment (Vercel project settings).
+const WEB3FORMS_ACCESS_KEY = import.meta.env.PUBLIC_WEB3FORMS_ACCESS_KEY ?? '';
+if (import.meta.env.DEV && !WEB3FORMS_ACCESS_KEY) {
+  console.warn(
+    '[ContactForm] PUBLIC_WEB3FORMS_ACCESS_KEY is not set — form submissions will fail. ' +
+    'Get a key at https://web3forms.com and add it to .env.'
+  );
+}
 ---
 
 <div id={formId} class={`bg-primary-50 border border-[var(--color-border)] rounded-xl ${sidebar ? 'p-5' : 'p-8 my-8'}`}>
   <h3 class="text-xl font-bold text-primary-800 mb-1">{headingText}</h3>
   <p class="text-sm text-[var(--color-text-secondary)] mb-6">{subText}</p>
 
-  <form data-netlify="true" name="ot-quote" method="POST">
-    <input type="hidden" name="form-name" value="ot-quote" />
+  <form
+    method="POST"
+    action="https://api.web3forms.com/submit"
+    data-quote-form
+  >
+    <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
+    <input type="hidden" name="subject" value="New OT Assignment Quote Request" />
+    <input type="hidden" name="from_name" value="OT Assignment Help Website" />
+    <!-- Honeypot: real visitors never see or fill this in; bots usually do. -->
+    <input
+      type="checkbox"
+      name="botcheck"
+      class="hidden"
+      tabindex="-1"
+      autocomplete="off"
+      aria-hidden="true"
+    />
 
     <div class={compact ? 'grid grid-cols-1 sm:grid-cols-2 gap-4' : 'space-y-4'}>
 
@@ -108,9 +134,75 @@ const labelClass = 'block text-sm font-semibold text-primary-800 mb-1';
 
     <button
       type="submit"
-      class="mt-6 bg-accent-500 hover:bg-accent-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200 w-full sm:w-auto"
+      class="mt-6 bg-accent-500 hover:bg-accent-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200 w-full sm:w-auto disabled:opacity-60 disabled:cursor-not-allowed"
     >
       Request a Free Quote
     </button>
+
+    <p data-form-status role="status" aria-live="polite" class="mt-4 text-sm"></p>
   </form>
 </div>
+
+<script>
+  // Progressive enhancement: submit via fetch so the page never reloads and we can
+  // show inline success/error feedback. Delegated on `document` (rather than bound
+  // per-form) so it works no matter how many ContactForm instances render on a page,
+  // and the guard flag keeps it idempotent if Astro inlines this script more than once.
+  const win = window as Window & { __otQuoteFormHandlerInstalled?: boolean };
+
+  if (!win.__otQuoteFormHandlerInstalled) {
+    win.__otQuoteFormHandlerInstalled = true;
+
+    document.addEventListener('submit', async (event) => {
+      const form = event.target;
+      if (!(form instanceof HTMLFormElement) || !form.matches('[data-quote-form]')) return;
+
+      event.preventDefault();
+
+      const statusEl = form.querySelector('[data-form-status]');
+      const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement | null;
+      const originalBtnText = submitBtn ? submitBtn.textContent : '';
+
+      const setStatus = (text: string, tone?: 'error' | 'success') => {
+        if (!statusEl) return;
+        statusEl.textContent = text;
+        statusEl.className =
+          tone === 'error'
+            ? 'mt-4 text-sm font-medium text-red-700'
+            : 'mt-4 text-sm font-medium text-secondary-700';
+      };
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+      }
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          headers: { Accept: 'application/json' },
+          body: new FormData(form),
+        });
+        const result = await response.json();
+
+        if (response.ok && result.success) {
+          form.reset();
+          setStatus("Thanks — your request has been sent. We'll reply within 24 hours.");
+        } else {
+          throw new Error(result.message || 'Submission failed');
+        }
+      } catch (error) {
+        console.error('[ContactForm] submission failed:', error);
+        setStatus(
+          'Sorry, something went wrong sending your request. Please email assignmenthelptalk@gmail.com directly.',
+          'error'
+        );
+      } finally {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalBtnText;
+        }
+      }
+    });
+  }
+</script>
