@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Occupational Therapy Assessment Tools Assignment Help — COPM, AMPS, FIM, Barthel Index and MOHOST">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1f33"/>
+      <stop offset="100%" stop-color="#1a3a5c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#bg2)"/>
+
+  <!-- Abstract clipboard / chart shapes on right -->
+  <!-- Outer clipboard shape -->
+  <rect x="800" y="80" width="260" height="340" fill="#1D3557" opacity="0.5" rx="12"/>
+  <rect x="880" y="62" width="100" height="36" fill="#2A9D8F" opacity="0.3" rx="8"/>
+  <!-- Chart bars inside clipboard -->
+  <rect x="830" y="240" width="30" height="120" fill="#2A9D8F" opacity="0.4" rx="3"/>
+  <rect x="874" y="200" width="30" height="160" fill="#457B9D" opacity="0.4" rx="3"/>
+  <rect x="918" y="220" width="30" height="140" fill="#2A9D8F" opacity="0.5" rx="3"/>
+  <rect x="962" y="180" width="30" height="180" fill="#457B9D" opacity="0.35" rx="3"/>
+  <!-- Checkbox lines -->
+  <rect x="830" y="148" width="140" height="10" fill="#2A9D8F" opacity="0.25" rx="3"/>
+  <rect x="830" y="168" width="100" height="10" fill="#457B9D" opacity="0.2" rx="3"/>
+  <rect x="830" y="188" width="120" height="10" fill="#2A9D8F" opacity="0.2" rx="3"/>
+  <!-- Check marks -->
+  <polyline points="820,153 826,160 838,145" fill="none" stroke="#2A9D8F" stroke-width="2.5" opacity="0.5"/>
+  <polyline points="820,173 826,180 838,165" fill="none" stroke="#2A9D8F" stroke-width="2.5" opacity="0.4"/>
+
+  <!-- Secondary decorative elements -->
+  <circle cx="1080" cy="460" r="90" fill="#2A9D8F" opacity="0.04"/>
+  <circle cx="1140" cy="120" r="50" fill="#457B9D" opacity="0.07"/>
+  <rect x="1050" y="80" width="4" height="120" fill="#2A9D8F" opacity="0.2" rx="2"/>
+
+  <!-- Tool name floating pills on right area -->
+  <rect x="1040" y="300" width="100" height="26" fill="#2A9D8F" opacity="0.15" rx="13"/>
+  <text x="1090" y="318" font-family="Inter, Arial, sans-serif" font-size="12" fill="#8ECFC9" text-anchor="middle">COPM</text>
+  <rect x="1040" y="336" width="100" height="26" fill="#457B9D" opacity="0.15" rx="13"/>
+  <text x="1090" y="354" font-family="Inter, Arial, sans-serif" font-size="12" fill="#8ECFC9" text-anchor="middle">AMPS</text>
+  <rect x="1040" y="372" width="100" height="26" fill="#2A9D8F" opacity="0.15" rx="13"/>
+  <text x="1090" y="390" font-family="Inter, Arial, sans-serif" font-size="12" fill="#8ECFC9" text-anchor="middle">MOHOST</text>
+  <rect x="1040" y="408" width="100" height="26" fill="#457B9D" opacity="0.15" rx="13"/>
+  <text x="1090" y="426" font-family="Inter, Arial, sans-serif" font-size="12" fill="#8ECFC9" text-anchor="middle">FIM</text>
+  <rect x="1040" y="444" width="100" height="26" fill="#2A9D8F" opacity="0.15" rx="13"/>
+  <text x="1090" y="462" font-family="Inter, Arial, sans-serif" font-size="12" fill="#8ECFC9" text-anchor="middle">Barthel</text>
+
+  <!-- Teal accent bar on left -->
+  <rect x="80" y="150" width="5" height="240" fill="#2A9D8F" rx="2"/>
+
+  <!-- Main text -->
+  <text x="108" y="218" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">OT Assessment</text>
+  <text x="108" y="280" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700" fill="#2A9D8F">Tools Assignment Help</text>
+
+  <!-- Subtitle -->
+  <text x="108" y="326" font-family="Inter, Arial, sans-serif" font-size="19" fill="#8ECFC9">COPM · AMPS · MOHOST · FIM · Barthel Index</text>
+
+  <!-- Tag pills -->
+  <rect x="108" y="352" width="170" height="28" fill="#2A9D8F" opacity="0.2" rx="14"/>
+  <text x="193" y="371" font-family="Inter, Arial, sans-serif" font-size="12" fill="#2A9D8F" text-anchor="middle">Scoring &amp; Interpretation</text>
+  <rect x="288" y="352" width="160" height="28" fill="#457B9D" opacity="0.2" rx="14"/>
+  <text x="368" y="371" font-family="Inter, Arial, sans-serif" font-size="12" fill="#8ECFC9" text-anchor="middle">Psychometric Properties</text>
+  <rect x="458" y="352" width="130" height="28" fill="#2A9D8F" opacity="0.15" rx="14"/>
+  <text x="523" y="371" font-family="Inter, Arial, sans-serif" font-size="12" fill="#8ECFC9" text-anchor="middle">BSc &amp; MSc Level</text>
+</svg>

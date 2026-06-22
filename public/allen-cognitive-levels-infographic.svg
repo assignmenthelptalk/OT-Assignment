@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" width="100%" role="img" aria-labelledby="acl-title">
+  <title id="acl-title">Allen Cognitive Levels 1 to 6 — Occupational Therapy Cognitive Disability Framework showing functional performance descriptions and OT cueing strategies per level</title>
+
+  <!-- Background -->
+  <rect width="800" height="650" fill="#F4F9FA" rx="8"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="58" fill="#1D3557" rx="8"/>
+  <rect x="0" y="44" width="800" height="14" fill="#1D3557"/>
+  <text x="400" y="36" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">Allen Cognitive Levels — OT Cognitive Disability Framework</text>
+
+  <!-- Independence arrow label (right side) -->
+  <text x="788" y="360" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#2A9D8F" text-anchor="middle" transform="rotate(-90 788 360)">INCREASING INDEPENDENCE →</text>
+  <line x1="788" y1="612" x2="788" y2="70" stroke="#2A9D8F" stroke-width="2"/>
+  <polygon points="788,62 783,76 793,76" fill="#2A9D8F"/>
+
+  <!-- LEVEL 1 -->
+  <rect x="20" y="66" width="756" height="88" fill="#1D3557" rx="6"/>
+  <circle cx="56" cy="110" r="20" fill="#E63946"/>
+  <text x="56" y="116" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="88" y="96" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Automatic Actions</text>
+  <line x1="88" y1="104" x2="730" y2="104" stroke="#2A9D8F" stroke-width="1" opacity="0.4"/>
+  <text x="88" y="120" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A8D8D0">Responds only to sensory stimulation · No purposeful engagement · 24-hour care required</text>
+  <text x="88" y="138" font-family="Inter, Arial, sans-serif" font-size="11" fill="#F4C5C8">▶ OT approach: Sensory stimulation programmes · Positioning · Arousal-based activities</text>
+
+  <!-- LEVEL 2 -->
+  <rect x="20" y="162" width="756" height="88" fill="#24496e" rx="6"/>
+  <circle cx="56" cy="206" r="20" fill="#E76F51"/>
+  <text x="56" y="212" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="88" y="192" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Postural Actions</text>
+  <line x1="88" y1="200" x2="730" y2="200" stroke="#2A9D8F" stroke-width="1" opacity="0.4"/>
+  <text x="88" y="216" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A8D8D0">Gross motor movement · Limited problem-solving · Familiar routine actions with full guidance</text>
+  <text x="88" y="234" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FDDCBC">▶ OT approach: Rote repetition of basic personal care · Full verbal and physical cueing</text>
+
+  <!-- LEVEL 3 -->
+  <rect x="20" y="258" width="756" height="88" fill="#2a6596" rx="6"/>
+  <circle cx="56" cy="302" r="20" fill="#F4A261"/>
+  <text x="56" y="308" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="88" y="288" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Manual Actions</text>
+  <line x1="88" y1="296" x2="730" y2="296" stroke="#A8D8D0" stroke-width="1" opacity="0.4"/>
+  <text x="88" y="312" font-family="Inter, Arial, sans-serif" font-size="11" fill="#D4EAE8">Repetitive use of familiar objects · Hand-to-object interaction · Cannot sequence new tasks</text>
+  <text x="88" y="330" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FDDCBC">▶ OT approach: Simple repetitive activities · Familiar objects only · Minimal sequencing demands</text>
+
+  <!-- LEVEL 4 -->
+  <rect x="20" y="354" width="756" height="88" fill="#457B9D" rx="6"/>
+  <circle cx="56" cy="398" r="20" fill="#F4A261"/>
+  <text x="56" y="404" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="88" y="384" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Goal-Directed Actions</text>
+  <line x1="88" y1="392" x2="730" y2="392" stroke="#A8D8D0" stroke-width="1" opacity="0.4"/>
+  <text x="88" y="408" font-family="Inter, Arial, sans-serif" font-size="11" fill="#E8F5F3">Manages familiar daily routines with prompting · Cannot solve novel problems</text>
+  <text x="88" y="426" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FDDCBC">▶ OT approach: Visible environmental cues · Familiar routines · Structured environment · No novel tasks</text>
+
+  <!-- LEVEL 5 -->
+  <rect x="20" y="450" width="756" height="88" fill="#2A9D8F" rx="6"/>
+  <circle cx="56" cy="494" r="20" fill="#52B788"/>
+  <text x="56" y="500" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="88" y="480" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1D3557">Exploratory Actions</text>
+  <line x1="88" y1="488" x2="730" y2="488" stroke="#1D3557" stroke-width="1" opacity="0.3"/>
+  <text x="88" y="504" font-family="Inter, Arial, sans-serif" font-size="11" fill="#1D3557">Adapts to novel situations with guidance · Problem-solves with support · New materials used</text>
+  <text x="88" y="522" font-family="Inter, Arial, sans-serif" font-size="11" fill="#1D3557">▶ OT approach: Gradual introduction of new activities · Guided exploration · IADL retraining possible</text>
+
+  <!-- LEVEL 6 -->
+  <rect x="20" y="546" width="756" height="88" fill="#52B788" rx="6"/>
+  <circle cx="56" cy="590" r="20" fill="#2A9D8F"/>
+  <text x="56" y="596" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="88" y="576" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1D3557">Planned Actions — Independent</text>
+  <line x1="88" y1="584" x2="730" y2="584" stroke="#1D3557" stroke-width="1" opacity="0.3"/>
+  <text x="88" y="600" font-family="Inter, Arial, sans-serif" font-size="11" fill="#1D3557">Full cognitive function · Independent problem-solving · Plans ahead · Normal performance</text>
+  <text x="88" y="618" font-family="Inter, Arial, sans-serif" font-size="11" fill="#1D3557">▶ OT approach: Full independence · OT role shifts to prevention, health promotion, and complex IADLs</text>
+
+  <!-- Footer -->
+  <text x="390" y="642" font-family="Inter, Arial, sans-serif" font-size="10" fill="#888888" text-anchor="middle">Allen Cognitive Levels © Allen &amp; Earhart (1992) · Assessment tools: ACLS and Kitchen Task Assessment · occupationtherapyassignment.help</text>
+</svg>
