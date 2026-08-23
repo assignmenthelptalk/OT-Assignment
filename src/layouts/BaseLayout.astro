@@ -63,6 +63,15 @@ const resolvedCanonical = canonicalUrl
     <link rel="apple-touch-icon" href="/Screenshot_1.png" />
 
     <slot name="head" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VSV1HY83M"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-6VSV1HY83M');
+    </script>
   </head>
   <body>
     <SiteHeader />
